@@ -7,7 +7,7 @@ init -2 python:
          h_patch = False
          hentai_patch_inicial = False
 image oc_c1 = "character/club/occult/loc/oc_c1.jpg"
-image ayano g1 = "character/club/occult/npc/1.png
+image ayano g1 = "character/club/occult/npc/1.png"
 image ayano g2 = "character/club/occult/npc/2.png"
 image ayano g3 = "character/club/occult/npc/3.png"
 image ayano g4 = "character/club/occult/npc/4.png"
