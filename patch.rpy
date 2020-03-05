@@ -1,0 +1,41 @@
+init python:
+     popularity_pool = renpy.random.randint(110, 130) * 10
+     popularity_athletics = renpy.random.randint(90, 109) * 10
+     popularity_basketball = renpy.random.randint(80, 89) * 10
+     popularity_art = renpy.random.randint(70, 79) * 10
+     popularity_science = renpy.random.randint(60, 69) * 10
+     popularity_literature = renpy.random.randint(50, 59) * 10
+     popularity_drama = renpy.random.randint(40, 49) * 10
+     popularity_detective = renpy.random.randint(30, 39) * 10
+     popularity_journalism = renpy.random.randint(20, 29) * 10
+     popularity_pool_poc = 0
+     popularity_athletics_poc = 0
+     popularity_basketball_poc = 0
+     popularity_art_poc = 0
+     popularity_science_poc = 0
+     popularity_literature_poc = 0
+     popularity_drama_poc = 0
+     popularity_detective_poc = 0
+     popularity_journalism_poc = 0
+     popularity_basketball_poc = renpy.random.randint(-5, 7) * 10
+     popularity_pool_poc = renpy.random.randint(-5, 9) * 10
+     popularity_athletics_poc = renpy.random.randint(-5, 8) * 10
+     popularity_basketball_poc = renpy.random.randint(-5, 7) * 10
+     popularity_art_poc = renpy.random.randint(-5, 5) * 10
+     popularity_science_poc = renpy.random.randint(-3, 4) * 10
+     popularity_literature_poc = renpy.random.randint(-2, 6) * 10
+     popularity_drama_poc = renpy.random.randint(-1, 3) * 10
+     popularity_detective_poc = renpy.random.randint(0, 6) * 10
+     popularity_journalism_poc = renpy.random.randint(-10, 15) * 10
+     popularity_basketball += popularity_basketball_poc
+     popularity_pool += popularity_pool_poc
+     popularity_athletics += popularity_athletics_poc
+     popularity_basketball += popularity_basketball_poc
+     popularity_art += popularity_art_poc
+     popularity_science += popularity_science_poc
+     popularity_literature += popularity_literature_poc
+     popularity_drama += popularity_drama_poc
+     popularity_detective += popularity_detective_poc
+     popularity_journalism += popularity_journalism_poc
+label after_load:
+     $ config.overlay_functions.append(time1)
