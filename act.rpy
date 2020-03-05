@@ -1499,141 +1499,141 @@ label ayano100:
      ayanogg1 "Yes! This is very important!"
      show ayano g42
      ayanogg1 "TELL ME WHAT YOU DID!"
-     glgg "Просто помог ей. Вот и все."
+     glgg "Just helped her. That's all."
      show ayano g34
-     ayanogg1 "Ты… Неужто ты помог ей со следующим голосованием? Как я помню, у нее есть некоторые проблемы с этим…"
-     glgg "Можно сказать и так."
+     ayanogg1 "Did you... Did you help her with the next vote? As I recall, she has some problems with that..."
+     glgg "You could say that."
      show ayano g31
-     ayanogg1 "Ясно... Хорошо, но..."
+     ayanogg1 "I see... Okay, but..."
      show ayano g34
-     ayanogg1 "КУДА НАМ ТРАТИТЬ ЭТИ ДЕНЬЖИЩА?!"
-     glgg "Ну… Можешь потратить на микроволновую печь. Ты ее, вроде как, давно еще хотела купить, чтобы разогревать купленную в супермаркетах еду."
+     ayanogg1 "WHERE DO WE SPEND THIS MONEY?!"
+     glgg "Well... You can spend it on a microwave. You kind of wanted to buy it a long time ago to heat up supermarket food."
      show ayano g22
-     ayanogg1 "Ты… Зачем ты это сделал? Я не понимаю…"
-     glgg "А разве мне нужны были причины, чтобы сделать тебе приятно?"
+     ayanogg1 "You... Why did you do that? I don't understand..."
+     glgg "Did I need a reason to make you feel good?"
      show ayano g41
-     ayanogg1 "Ты… Не веди себя, как альфа! Скажи, что ты хочешь взамен своих действий!"
-     glgg "Я ничего не хочу, успокойся…"
+     ayanogg1 "You... Don't act like an alpha! Say what you want in return for your actions!"
+     glgg "I don't want anything, calm down..."
      show ayano g42
-     ayanogg1 "Говори!"
-     glgg "Хорошо, тогда как насчет…"
+     ayanogg1 "Speak up!"
+     glgg "Okay, then how about..."
      menu:
-         "{color=#000000}Поцелуй меня.\n{size=21}{i}10 энергии{/i}{/size}{/color}":
+         "{color=#000000}Kiss me. \n{size=21}{i}10 energy{/i}{/size}{/color}."
              hide ayano
-             "Улыбнувшись вам в ответ, девушка резкими движениями неуклюже чмокнула вас в губы, после отступив на два шага в смущении." with vpunch
-             glgg "Даже без вопросов… И куда делась твоя язвительность?"
+             "With a smile in return, the girl punched you on the lips clumsily, after retreating two steps in embarrassment." with vpunch
+             glgg "No question about it... And where did your sarcasm go?"
              show ayano g41 with dissolve
-             ayanogg1 "Туда же, куда и твоя тактичность!"
+             ayanogg1 "To the same place as your tactfulness!"
              show ayano g22
-             ayanogg1 "Финансирование нашего клуба теперь 15.000 кредитов в месяц, как тут не выполнить желание сделавшего подобное?!"
-             glgg "Вот оно как… А если бы я попросил пошлости, ты бы их тоже выполнила?"
+             ayanogg1 "Funding our club is now 15,000 credits a month, how can you not fulfill the wish of the one who did this?!"
+             glgg "That's how it is... And if I asked for nonsense, would you do it too?"
              show ayano g24
-             ayanogg1 "Кто знает… Теперь вот гадай!"
-             glgg "Ты так жестока…"
+             ayanogg1 "Who knows... Now guess!"
+             glgg "You are so cruel..."
              show ayano g32
-             ayanogg1 "Жестока, но знаешь… Я тебе действительно благодарна. Ты столько сделал ради клуба…"
-             glgg "Одно единственное действие – много?"
+             ayanogg1 "Brutal, but you know... I really appreciate it. You've done so much for the club..."
+             glgg "One single action is a lot?"
              show ayano g44
-             ayanogg1 "Ты рассматриваешь свои поступки лишь с одной стороны, даже не задумываясь, что именно ты, [player_name], сделал для меня, да и для клуба, куда больше, чем кто бы там ни был…"
-             glgg "Вот оно как..."
+             ayanogg1 "You look at your actions only from one side, without even thinking about what you [player_name] did for me, and for the club, much more than anyone else..."
+             glgg "Here it is..."
              show ayano g30
-             ayanogg1 "Я тебе действительно благодарна… Ты… Ты считаешь мои во многом незначительные слова чем-то… Чем-то куда большим, принимая их во внимание…"
-             glgg "Рад был тебе помочь."
+             ayanogg1 "I'm really grateful to you... You... You think my insignificant words are something... Something much bigger, taking them into account..."
+             glgg "Happy to help you."
              show ayano g24
-             ayanogg1 "Знаешь, чтобы ты не был так расстроен, я позволю тебе подходить ко мне в любое время с тем самым…"
-             glgg "С чем?"
+             ayanogg1 "You know, just so you're not so upset, I'll let you come up to me anytime you want, so..."
+             glgg "With what?"
              show ayano g26
-             ayanogg1 "Кто знает… Вот теперь и гадай!"
-             glgg "Мне повторят?.."
+             ayanogg1 "Who knows... Now guess!"
+             glgg "Shall I repeat...?"
              hide ayano
-             "Смущенно отвернувшись от вас, девушка села на свое уже насиженное привычное место и продолжила заниматься своими делами, изредка посматривая на вас с некой опаской. Решив после проверить ее слова, вы последовали примеру Аяно, присев рядом с ней."
+             "Embarrassedly turning away from you, the girl sat down in her already raped habitual place and continued to do her business, occasionally looking at you with a certain caution. When you decided to check her words, you followed Ayano's example by sitting next to her."
              $ energy -= 10
              $ student_soviet_progress = 101
              $ ayano_contact += 25
              $ ayano_trust += 25
              call screen occult_club_control
-         "{color=#000000}Мне хватит и твоего довольного личика\n{size=21}{i}5 энергии{/i}{/size}{/color}":
+         "{color=#000000} I've had enough of your happy face \n{size=21}{i}5 energy{/i}{/size}{/color}":
              $ energy -= 5
              show ayano g41
-             ayanogg1 "НЕ ВЕДИ СЕБЯ, КАК АЛЬФА, ЧЕРТОВ…"
-             glgg "Хорошо-хорошо."
+             ayanogg1 "DON'T ACT LIKE AN ALPHA, DAMN IT..."
+             glgg "Okay, okay."
              show ayano g42
-             ayanogg1 "Что ты хочешь?"
-             glgg "Твою улыбку."
+             ayanogg1 "What do you want?"
+             glgg "Your smile."
              show ayano g33
-             ayanogg1 "ДА ТЫ ИЗДЕВАЕШЬСЯ? Ты сделал что-то странное просто для того, чтобы увидеть мою улыбку?!"
-             glgg "А это так странно разве?"
-             ayanogg1 "Да! Это очень странно видеть в человеке, который совершенно недавно был ко мне безразличен! Признавайся, тебе нужна доля, так?"
-             glgg "Да не особо-то мне эти гроши и нужны…"
+             ayanogg1 "YOU GOTTA BE KIDDING ME. You did something weird just to see me smile?!"
+             glgg "Is that so weird?"
+             ayanogg1 "Yes! It's very strange to see a man who's recently been indifferent to me! Admit it, you need a cut, right?"
+             glgg "I don't really need those pennies..."
              show ayano g41
-             ayanogg1 "Гроши? 15.000 кредитов в месяц для подобного нашему клубу?!"
-             glgg "О как… А она действительно постаралась выбить финансирование побольше…"
+             ayanogg1 "Pebbles? 15,000 credits a month for a club like this?!"
+             glgg "Oh, how... And she really tried to get more funding..."
              show ayano g42
-             ayanogg1 "ТО ЕСТЬ ТЫ ДАЖЕ О СУММЕ НЕ ДОГОВАРИВАЛСЯ?"
-             glgg "Ну да. Разговор шел о простейшем финансировании…"
+             ayanogg1 "SO YOU DIDN'T EVEN AGREE ON THE AMOUNT?"
+             glgg "Yeah, well, it was about the simplest funding..."
              show ayano g38
-             ayanogg1 "Простейшее финансирование – 2.000 кредитов в месяц, а не 15.000! Такое финансирование у клубов, которые имеют несколько десятков участников, и им действительно нужны эти деньжища! Что ты сделал для этой стервы?!"
-             glgg "Помог."
+             ayanogg1 "The easiest financing is 2,000 credits per month, not 15,000! Clubs that have a few dozen members have this kind of funding, and they really need this money! What have you done for that bitch?!"
+             glgg "Helped."
              show ayano g34
-             ayanogg1 "Как ты ей так помог, что она выбила финансирование в 15 тысяч для нашего захудалого клуба, на который ранее точил когти студ. Совет, дабы закрыть?!"
-             glgg "Ты чего это так злишься? Я тебе помог, а ты тут устроила допрос с пристрастием…"
-             ayanogg1 "Ты либо чертов гений, либо придурок."
-             glgg "А можно все вместе?"
+             ayanogg1 "How did you help her so much that she knocked out 15 grand for our sleazy club that the students' claws used to hone in. Tip, to close?!"
+             glgg "Why are you so mad? I helped you, and you had a passionate interrogation..."
+             ayanogg1 "You're either a fucking genius or a jerk.."
+             glgg "Can we all do this together?"
              show ayano g42
-             ayanogg1 "Не язви! ПРОСТО СКАЖИ МНЕ!"
-             glgg "Я просто помог ей со следующими выборами, вот и все."
+             ayanogg1 "Don't be sarcastic! JUST TELL ME!"
+             glgg "I just helped her with the next election, that's all."
              show ayano g41
-             ayanogg1 "В общем, я тебя поняла… Она положила на тебя глаз, будь осторожен с этой змеюкой, но…"
+             ayanogg1 "Anyway, I hear you... She had her eye on you, be careful with that snake, but..."
              show ayano g32
-             ayanogg1 "Все равно… Спасибо тебе."
-             glgg "Оплата была получена. Обращайтесь еще."
+             ayanogg1 "Anyway... Thank you."
+             glgg "Payment has been received. Please contact us again."
              hide ayano
-             "Улыбнувшись вам в ответ, девушка резкими движениями неуклюже чмокнула вас в губы, после отступив на два шага в смущении." with vpunch
+             "With a smile in return, the girl punched you on the lips clumsily, after retreating two steps in embarrassment." with vpunch
              show ayano g26 with dissolve
-             ayanogg1 "Еще раз… Спасибо…"
-             glgg "Резко же ты меняешь свое мнение насчет разных ситуаций… Импульсивность так и прет."
+             ayanogg1 "Once again... Thank you..."
+             glgg "You change your mind about different situations... Impulsivity is the same."
              show ayano g31
-             ayanogg1 "Я… Я просто волнуюсь за тебя… Ты хоть и помог мне, даже не мне… Нам, но я очень надеюсь, что ты более не свяжешься с ней. Она… Она не совсем приятный человек."
-             glgg "Постараюсь не связываться."
+             ayanogg1 "I'm... I'm just worried about you... You helped me, not even me... Us, but I really hope you don't contact her again. She's... She's not a nice person."
+             glgg "I'll try not to get in touch."
              show ayano g22
-             ayanogg1 "Спасибо еще раз…"
+             ayanogg1 "Thank you again..."
              hide ayano
-             "Присев на свое насиженное место, Аяно вернулась к своим делам, будто бы ничего и не было."
-             glgg "Полагаю, что мне открылись некоторые действия с ней после произошедшего…"
+             "After sitting down in her comfort zone, Ayano returned to her business as if nothing had happened."
+             glgg "I guess I've had some openings with her after what happened..."
              $ student_soviet_progress = 101
              $ ayano_contact += 25
              $ ayano_trust += 25
              call screen occult_club_control
-         "{color=#000000}Дай мне газировки.\n{size=21}{i}0 энергии{/i}{/size}{/color}":
+         "{color=#000000} Give me a soda. \n{size=21}{i}0 energy{/i}{/size}{/color}."
              show ayano g39
-             ayanogg1 "И почему ты так любишь газировку?.."
-             glgg "Даже не знаю. Она… Освежает?"
+             ayanogg1 "And why do you like soda so much..."
+             glgg "I don't know. Is she... Refreshing?"
              show ayano g22
-             ayanogg1 "Ты же шутишь, так?"
-             glgg "Возможно."
+             ayanogg1 "You're kidding, right?"
+             glgg "Maybe."
              show ayano g27
-             ayanogg1 "Ты знаешь какое финансирование у клуба на данный момент?"
-             glgg "Не особо, но очень надеюсь, что ты меня просветишь каким-нибудь… Четырехзначным числом."
+             ayanogg1 "Do you know what kind of funding the club has at the moment?"
+             glgg "Not really, but I really hope that you'll enlighten me with some... Four-digit number."
              show ayano g34
-             ayanogg1 "15.000 в месяц."
-             glgg "А я, похоже, даже слишком постарался, раз меня оценили в такую цену."
+             ayanogg1 "15,000 a month."
+             glgg "And I guess I even tried too hard, since I was valued at this price."
              show ayano g32
-             ayanogg1 "Ага. И мне почему-то даже знать подробности не хочется. В любом случае… Ты хотел газировку, так?"
-             glgg "Именно."
+             ayanogg1 "Yeah. And for some reason, I don't even want to know the details. Anyway... You wanted a soda, right?"
+             glgg "That's right."
              show ayano g22
-             ayanogg1 "Ты можешь просить у меня столько газировки, сколько хочешь, да и не только…"
-             glgg "О как. Я могу брать твои чипсы?"
-             ayanogg1 "Не только…"
-             glgg "Хм… Я могу брать всю твою еду?"
-             ayanogg1 "Не только…"
-             glgg "Даже не знаю, что еще. Не подскажешь?"
+             ayanogg1 "You can ask me for as much soda as you want, and not just..."
+             glgg "Oh, yeah. Can I take your chips?"
+             ayanogg1 "Not only..."
+             glgg "Um... Can I take all your food?"
+             ayanogg1 "Not just..."
+             glgg "I don't know what else. Can you give me a hint?"
              hide ayano
-             "Улыбнувшись вам в ответ, девушка резкими движениями неуклюже чмокнула вас в губы, после отступив на два шага в смущении."
+             "With a smile in return, the girl punched you on the lips clumsily, after retreating two steps in embarrassment."
              show ayano g22 with dissolve
-             ayanogg1 "Еще раз… Спасибо…"
-             glgg "Намек понят. Буду обращаться к тебе, как только захочу чего-то подобного."
+             ayanogg1 "One more time... Thank you..."
+             glgg "The hint is clear. I will address you as soon as I want something like that."
              hide ayano
-             "Смущенно отвернувшись от вас, девушка села на свое уже насиженное привычное место и продолжила заниматься своими делами, изредка посматривая на вас с некой опаской."
+             "Embarrassedly turning away from you, the girl sat down in her already raped habitual place and continued to do her business, occasionally looking at you with a certain caution."
              $ free_soda = 1
              $ student_soviet_progress = 102
              $ ayano_contact += 25
@@ -1726,38 +1726,38 @@ screen ayano_d:
      text "{font=gui/fonts/ubuntu.ttf}[energy]{/font}" xalign 0.41 yalign 0.9785 size 32
      text "{font=gui/fonts/ubuntu.ttf}[money]{/font}"  xalign 0.53 yalign 0.9785 size 32
      if dialoge_ayano == 0:
-         text '{size=34}{color=#e6e6e6}Ты что-то хотел мне сказать?{/color}{/size}' xalign 0.3 yalign 0.83
+         text '{size=34}{color=#e6e6e6}There is something you wanted to tell me?{/color}{/size}' xalign 0.3 yalign 0.83
      elif dialoge_ayano == 2:
-         text '{size=34}{color=#e6e6e6}Не смотри на меня такими глазами, извращенец!\nНе смей даже думать об этом!{/color}{/size}' xpos 460 yalign 0.87
+         text '{size=34}{color=#e6e6e6}Do not look at me with those eyes, you pervert!\nDo not you dare even think about it!{/color}{/size}' xpos 460 yalign 0.87
      elif dialoge_ayano == 1:
-         text '{size=34}{color=#e6e6e6}Эй! Не прикасайся ко мне своими грязными лапами,\nидиот!{/color}{/size}' xpos 460 yalign 0.87
+         text '{size=34}{color=#e6e6e6}Hey! Do not touch me with your dirty paws,\nIdiot!{/color}{/size}' xpos 460 yalign 0.87
      elif dialoge_ayano == 3:
-         text '{size=34}{color=#e6e6e6}Хе-хе… Если можешь, то прикасайся ко мне почаще… {/color}{/size}' xpos 460 yalign 0.83
+         text '{size=34}{color=#e6e6e6}Heh heh... If you can, touch me more often... {/color}{/size}' xpos 460 yalign 0.83
      elif dialoge_ayano == 4:
-         text '{size=34}{color=#e6e6e6}Эй... У меня что-то на лице?{/color}{/size}' xpos 460 yalign 0.83
+         text '{size=34}{color=#e6e6e6}Hey... Is there something on my face?{/color}{/size}' xpos 460 yalign 0.83
      elif dialoge_ayano == 5:
-         text '{size=34}{color=#e6e6e6}Говори уже, что ты там хотел, [player_name]...{/color}{/size}' xpos 460 yalign 0.83
+         text '{size=34}{color=#e6e6e6}Tell me what you wanted, [player_name]...{/color}{/size}' xpos 460 yalign 0.83
      elif dialoge_ayano == 6:
-         text '{size=34}{color=#e6e6e6}Хе-хе... Ну, как скажешь. В любом случае я это скоро узнаю!{/color}{/size}' xpos 460 yalign 0.83
+         text '{size=34}{color=#e6e6e6}Heh heh... Well, whatever you say. Anyway, I will find out soon enough!{/color}{/size}' xpos 460 yalign 0.83
      elif dialoge_ayano == 7:
-         text '{size=34}{color=#e6e6e6}Хе-хе… Мне кажется, или ты действительно сегодня милее обычного?{/color}{/size}' xpos 460 yalign 0.83
+         text '{size=34}{color=#e6e6e6}Heh-heh... Is it me, or are you really cuter than usual today?{/color}{/size}' xpos 460 yalign 0.83
      elif dialoge_ayano == 8:
-         text '{size=34}{color=#e6e6e6}Чего тебе нужно от меня, грязный извращенец?!{/color}{/size}' xpos 460 yalign 0.83
+         text '{size=34}{color=#e6e6e6}What do you want from me, you dirty pervert?!{/color}{/size}' xpos 460 yalign 0.83
      imagebutton xpos 20 ypos 605:
-         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Разговор{/color}{/size}{/font}')
-         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Разговор{/color}{/size}{/font}{/u}')
+         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Talk{/color}{/size}{/font}')
+         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Talk{/color}{/size}{/font}{/u}')
          action SetVariable('dialoge', 1)
      imagebutton xpos 20 ypos 655:
-         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Романтика{/color}{/size}{/font}')
-         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Романтика{/color}{/size}{/font}{/u}')
+         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Romance{/color}{/size}{/font}')
+         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Romance{/color}{/size}{/font}{/u}')
          action SetVariable('dialoge', 2)
      imagebutton xpos 20 ypos 700:
-         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Эротика{/color}{/size}{/font}')
-         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Эротика{/color}{/size}{/font}{/u}')
+         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Erotica{/color}{/size}{/font}')
+         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Erotica{/color}{/size}{/font}{/u}')
          action SetVariable('dialoge', 3)
      imagebutton xpos 20 ypos 745:
-         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Назад{/color}{/size}{/font}')
-         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Назад{/color}{/size}{/font}{/u}')
+         idle Text('{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Back{/color}{/size}{/font}')
+         hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=32}{color=#282828}Back{/color}{/size}{/font}{/u}')
          action Hide('ayano_d'), Jump('club')
      vpgrid:
          cols 1
@@ -1769,94 +1769,94 @@ screen ayano_d:
          mousewheel True
          arrowkeys True
          if ayano_contact <= 15:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Отношения:{/color}{color=#282828} знакомый {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Relationship:{/color}{color=#282828} acquaintance {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
          elif ayano_contact <= 85:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Отношения:{/color}{color=#b0cc62} друг {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Relationship:{/color}{color=#b0cc62} friend {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
          elif ayano_contact <= 150:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Отношения:{/color}{color=#89ad27} лучший друг {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Relationship:{/color}{color=#89ad27} best friend {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
          elif ayano_contact >= 151:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Отношения:{/color}{color=#ff8cb4} тебя любят! {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Relationship:{/color}{color=#ff8cb4} You are loved! {/color}{color=#282828}([ayano_contact]){/color}{/size}{/font}'
          if ayano_trust <= 15:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Доверие:{/color}{color=#282828} низкое {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Trust:{/color}{color=#282828} low {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
          elif ayano_trust <= 85:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Доверие:{/color}{color=#b0cc62} среднее {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Trust:{/color}{color=#b0cc62} middle {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
          elif ayano_trust <= 150:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Доверие:{/color}{color=#89ad27} высокое {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Trust:{/color}{color=#89ad27} high {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
          elif ayano_trust >= 151:
-             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Доверие:{/color}{color=#ff8cb4} очень высокое {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
+             text '{font=gui/fonts/comicsans.ttf}{size=28}{color=#282828}Trust:{/color}{color=#ff8cb4} lofty {/color}{color=#282828}([ayano_trust]){/color}{/size}{/font}'
      if dialoge == 1:
          imagebutton xpos 1565 ypos 755:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}О насущном{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge1]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}О насущном{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge1]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}About urgent{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge1]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}About urgent{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge1]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 1), SetVariable('dialoge', 1), Jump('ayano2')
          imagebutton xpos 1565 ypos 860:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}О романтике{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge2]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}О романтике{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge2]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}About romance{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge2]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}About romance{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge2]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 1), SetVariable('dialoge', 4), Jump('ayano2')
          imagebutton xpos 1565 ypos 705:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Об играх{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge5]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Об играх{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge5]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}About games{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge5]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}About games{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge5]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 1), SetVariable('dialoge', 3), Jump('ayano2')
          imagebutton xpos 1565 ypos 810:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Об учебе{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge3]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Об учебе{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge3]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}About study{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge3]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}About study{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge3]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 1), SetVariable('dialoge', 2), Jump('ayano2')
          imagebutton xpos 1565 ypos 910:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Об эротике{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Об эротике{/u}{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}About erotica{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}About erotica{/u}{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 1), SetVariable('dialoge', 5), Jump('ayano2')
          if student_soviet_progress <= 100:
              if dialoge_club == 0:
                  imagebutton xpos 1565 ypos 960:
-                     idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Развитие клуба?{/color}{/size}{/font}')
-                     hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Развитие клуба?{/color}{/size}{/font}{/u}')
+                     idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Club development?{/color}{/size}{/font}')
+                     hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Club development?{/color}{/size}{/font}{/u}')
                      action SetVariable('dialoge', 9), Jump('ayano2')
          elif student_soviet_progress >= 102:
              imagebutton xpos 1565 ypos 960:
-                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Газировка{/color}{/size}{/font}')
-                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Газировка{/color}{/size}{/font}{/u}')
+                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Soda{/color}{/size}{/font}')
+                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Soda{/color}{/size}{/font}{/u}')
                  action SetVariable('dialoge', 19), Jump('ayano2')
      elif dialoge == 2:
          imagebutton xpos 1565 ypos 705:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Погладить{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge6]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Погладить{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge6]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Touch{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge6]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Touch{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge6]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 2), SetVariable('dialoge', 6), Jump('ayano2')
          imagebutton xpos 1565 ypos 755:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Обнять{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge7]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Обнять{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge7]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Hug{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge7]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Hug{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge7]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 2), SetVariable('dialoge', 7), Jump('ayano2')
          imagebutton xpos 1565 ypos 810:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Свидание{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge8]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Свидание{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge8]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Date{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge8]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Date{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[chance_dialoge8]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 2), SetVariable('dialoge', 8), Jump('ayano2')
          if student_soviet_progress >= 101:
              imagebutton xpos 1565 ypos 860:
-                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Поцеловать{/color}{/size}{/font}')
-                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Поцеловать{/color}{/size}{/font}{/u}')
+                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Kiss{/color}{/size}{/font}')
+                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Kiss{/color}{/size}{/font}{/u}')
                  action SetVariable('old_dialoge', 2), SetVariable('dialoge', 22), Jump('ayano2')
          else:
              imagebutton xpos 1565 ypos 860:
-                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Поцеловать {image=icons/icons_block.png}{/color}{/size}{/font}')
-                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Поцеловать {image=icons/icons_block.png}{/color}{/size}{/font}{/u}')
+                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Kiss {image=icons/icons_block.png}{/color}{/size}{/font}')
+                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Kiss {image=icons/icons_block.png}{/color}{/size}{/font}{/u}')
                  action SetVariable('old_dialoge', 2), SetVariable('page', 22)
          imagebutton xpos 1565 ypos 915:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=30}{color=#282828}Давай встречаться! {image=icons/icons_block.png}{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=33}{color=#282828}Давай встречаться! {image=icons/icons_block.png}{/color}{/size}{/font}{/u}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=30}{color=#282828}Let is go out! {image=icons/icons_block.png}{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=33}{color=#282828}Let is go out! {image=icons/icons_block.png}{/color}{/size}{/font}{/u}')
              action SetVariable('old_dialoge', 2), SetVariable('page', 22)
      elif dialoge == 3:
          imagebutton xpos 1565 ypos 705:
-             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Флирт {/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=27}[[[flirt_chance]%]{/color}{/size}{/font}')
-             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Флирт{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[flirt_chance]%]{/color}{/size}{/font}')
+             idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Flirt {/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=27}[[[flirt_chance]%]{/color}{/size}{/font}')
+             hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Flirt{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[flirt_chance]%]{/color}{/size}{/font}')
              action SetVariable('old_dialoge', 3), SetVariable('dialoge', 25), Jump('ayano2')
          if ayano_contact >= 100:
              imagebutton xpos 1565 ypos 755:
-                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Минет{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=27} [[[minet_chance]%]{/color}{/size}{/font}')
-                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Минет{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[minet_chance]%]{/color}{/size}{/font}')
+                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Blow job{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=27} [[[minet_chance]%]{/color}{/size}{/font}')
+                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Blow job{/u}{/color}{/size}{/font}{color=#808080}{font=gui/fonts/comicsans.ttf}{size=30} [[[minet_chance]%]{/color}{/size}{/font}')
                  action SetVariable('old_dialoge', 3), SetVariable('dialoge', 26), Jump('ayano2')
          else:
              imagebutton xpos 1565 ypos 755:
-                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Минет {image=icons/icons_block.png}{/color}{/size}{/font}')
-                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Минет {image=icons/icons_block.png}{/u}{/color}{/size}{/font}')
+                 idle Text('{font=gui/fonts/comicsans.ttf}{size=35}{color=#282828}Blow job {image=icons/icons_block.png}{/color}{/size}{/font}')
+                 hover Text('{u}{font=gui/fonts/comicsans.ttf}{size=38}{color=#282828}Blow job {image=icons/icons_block.png}{/u}{/color}{/size}{/font}')
                  action SetVariable('old_dialoge', 3)
 label storeroom:
      $ gg = 25
@@ -1918,7 +1918,7 @@ screen storeroom:
                      ypadding 0
                      xmargin 5
                      ymargin 5
-                     text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Ёшида Аяно{/font}{/size}{/color}"
+                     text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Yoshida Ayano{/font}{/size}{/color}"
                      action Jump('ayano_storeroom')
      elif dialoge == 2:
          vpgrid:
@@ -1948,7 +1948,7 @@ screen storeroom:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Школьный клуб{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}School club{/font}{/size}{/color}"
                  action Jump('club')
      imagemap:
          if dialoge == 1:
@@ -2059,7 +2059,7 @@ screen occult_club_control:
                          ypadding 0
                          xmargin 5
                          ymargin 5
-                         text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Ёшида Аяно{/font}{/size}{/color}"
+                         text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Yoshida Ayano{/font}{/size}{/color}"
                          action Jump('ayano_d')
              for number_npc in range(1, number_npc_max):
                  $ npc_id = 'npc'+str(number_npc)
@@ -2119,7 +2119,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/enemy1_idle.png"
                  hover_background "gui/system/npc/enemy1_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Менеджмент клуба{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Club Management{/font}{/size}{/color}"
                  action Hide('occult_club_control'), Hide('ayano'), Hide('ayano_cosplay'), SetVariable('page', 1), Show('stats_club_occult')
              if book_guide_occult_club == 0:
                  button:
@@ -2129,7 +2129,7 @@ screen occult_club_control:
                      ymargin 5
                      add "gui/system/npc/enemy1_idle.png"
                      hover_background "gui/system/npc/enemy1_hover.png"
-                     text "  {color=#000000}{size=22}{font=gui/fonts/alegreya.ttf}Базовое управление клубом{/font}{/size}{/color}"
+                     text "  {color=#000000}{size=22}{font=gui/fonts/alegreya.ttf}Basic management of the club{/font}{/size}{/color}"
                      action Hide('occult_club_control'), Hide('ayano'), Hide('ayano_cosplay'), SetVariable('page', 1), Jump('occult_book_guide')
      elif dialoge == 3:
          vpgrid:
@@ -2149,7 +2149,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Подсобка клуба{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Backpack of the club{/font}{/size}{/color}"
                  action Jump('storeroom')
              button:
                  xpadding 0
@@ -2158,7 +2158,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Крыша{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Roof{/font}{/size}{/color}"
                  action Jump('roof')
              button:
                  xpadding 0
@@ -2167,7 +2167,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Столовая{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Dining Hall{/font}{/size}{/color}"
                  action Jump('canteen')
              button:
                  xpadding 0
@@ -2176,7 +2176,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Бассейн{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Swimming Pool{/font}{/size}{/color}"
                  action Jump('pool')
              button:
                  xpadding 0
@@ -2185,7 +2185,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Школьный класс{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}School Class{/font}{/size}{/color}"
                  action Jump('class')
              button:
                  xpadding 0
@@ -2194,7 +2194,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Студенческий совет{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Student Council{/font}{/size}{/color}"
                  action Jump('student_soviet')
              button:
                  xpadding 0
@@ -2203,7 +2203,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Коридор школы{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}School corridor{/font}{/size}{/color}"
                  action Jump('corridor')
              button:
                  xpadding 0
@@ -2212,7 +2212,7 @@ screen occult_club_control:
                  ymargin 5
                  add "gui/system/npc/stranger_idle.png"
                  hover_background "gui/system/npc/stranger_hover.png"
-                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}Вход школы{/font}{/size}{/color}"
+                 text "  {color=#000000}{size=27}{font=gui/fonts/alegreya.ttf}School entrance{/font}{/size}{/color}"
                  action Jump('school')
      imagemap:
          if dialoge == 1:
@@ -2309,36 +2309,36 @@ screen stats_club_occult:
      if page == 3:
          key 'shift_alt_K_F12' action SetVariable("popularity_club_occult", popularity_club_occult+100)
          add "gui/club_control/stats.png"
-         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Авторитет{/size}{/color}{/font}' xpos 620 ypos 835
-         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Популярность{/size}{/color}{/font}' xpos 620 ypos 860
-         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Новые участники{/size}{/color}{/font}' xpos 620 ypos 910
-         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Заработано{/size}{/color}{/font}' xpos 620 ypos 955
-         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Потрачено{/size}{/color}{/font}' xpos 620 ypos 980
-         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}Итог{/size}{/color}{/font}' xpos 620 ypos 1030
+         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Reputation{/size}{/color}{/font}' xpos 620 ypos 835
+         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Popularity{/size}{/color}{/font}' xpos 620 ypos 860
+         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}New members{/size}{/color}{/font}' xpos 620 ypos 910
+         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Earned by{/size}{/color}{/font}' xpos 620 ypos 955
+         text '{font=gui/fonts/alegreya.ttf}{color=#505050}{size=24}Spent{/size}{/color}{/font}' xpos 620 ypos 980
+         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}Result{/size}{/color}{/font}' xpos 620 ypos 1030
 
-         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 ед.{/size}{/color}{/font}' xpos 1165 ypos 835
+         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 unit.{/size}{/color}{/font}' xpos 1165 ypos 835
          text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+[global_project_poc3] ед.{/size}{/color}{/font}' xpos 1165 ypos 860
-         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 человек{/size}{/color}{/font}' xpos 1135 ypos 910
-         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}Не дается{/size}{/color}{/font}' xpos 1140 ypos 955
-         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}Не тратятся{/size}{/color}{/font}' xpos 1130 ypos 980
+         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 person{/size}{/color}{/font}' xpos 1135 ypos 910
+         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}Not available.{/size}{/color}{/font}' xpos 1140 ypos 955
+         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}Not wasted.{/size}{/color}{/font}' xpos 1130 ypos 980
          if global_project_poc3 == 0:
-             text '{font=gui/fonts/alegreya.ttf}{color=#842626}{size=24}ПРОВАЛ!{/size}{/color}{/font}' xpos 1155 ypos 1030
+             text '{font=gui/fonts/alegreya.ttf}{color=#842626}{size=24}FAIL!{/size}{/color}{/font}' xpos 1155 ypos 1030
          else:
-             text '{font=gui/fonts/alegreya.ttf}{color=#578426}{size=24}УСПЕХ!{/size}{/color}{/font}' xpos 1160 ypos 1030
+             text '{font=gui/fonts/alegreya.ttf}{color=#578426}{size=24}SUCCESS!{/size}{/color}{/font}' xpos 1160 ypos 1030
 
 
-         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 ед.{/size}{/color}{/font}' xpos 950 ypos 835
+         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 unit.{/size}{/color}{/font}' xpos 950 ypos 835
          text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+[festivale_poc3] ед.{/size}{/color}{/font}' xpos 950 ypos 860
-         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 человек{/size}{/color}{/font}' xpos 915 ypos 910
+         text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=24}+0 person{/size}{/color}{/font}' xpos 915 ypos 910
          if festivale_poc4 >= 1000:
              text '{font=gui/fonts/alegreya.ttf}{color=#578426}{size=24}+[festivale_poc4] к.{/size}{/color}{/font}' xpos 935 ypos 955
          else:
              text '{font=gui/fonts/alegreya.ttf}{color=#578426}{size=24}+[festivale_poc4] к.{/size}{/color}{/font}' xpos 955 ypos 955
-         text '{font=gui/fonts/alegreya.ttf}{color=#842626}{size=24}-0 к.{/size}{/color}{/font}' xpos 955 ypos 980
+         text '{font=gui/fonts/alegreya.ttf}{color=#842626}{size=24}-0 c.{/size}{/color}{/font}' xpos 955 ypos 980
          if festivale_poc3 == 0:
-             text '{font=gui/fonts/alegreya.ttf}{color=#842626}{size=24}ПРОВАЛ!{/size}{/color}{/font}' xpos 935 ypos 1030
+             text '{font=gui/fonts/alegreya.ttf}{color=#842626}{size=24}FAIL!{/size}{/color}{/font}' xpos 935 ypos 1030
          else:
-             text '{font=gui/fonts/alegreya.ttf}{color=#578426}{size=24}УСПЕХ!{/size}{/color}{/font}' xpos 940 ypos 1030
+             text '{font=gui/fonts/alegreya.ttf}{color=#578426}{size=24}SUCCESS!{/size}{/color}{/font}' xpos 940 ypos 1030
          $ myarr = [popularity_basketball, popularity_pool, popularity_club_occult, popularity_athletics, popularity_art, popularity_science, popularity_literature, popularity_drama, popularity_detective, popularity_journalism]
          $ e = sorted(myarr, reverse=True)
          vbox xpos 620 ypos 230:
@@ -2346,7 +2346,7 @@ screen stats_club_occult:
              for number_npc in e:
                  hbox:
                      if number_npc == popularity_basketball:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Баскетбольный клуб{/size}{/color}{/font}' ypos 2
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Basketball Club{/size}{/color}{/font}' ypos 2
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 108 ypos 2
                          if popularity_basketball_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=26}[number_npc] {/color}{color=#282828}({/color}{color=#578426}▲ [popularity_basketball_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 138 ypos 2
@@ -2355,7 +2355,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#323232}{size=26}[number_npc] {/color}{color=#282828}([popularity_basketball_poc]) оп{/size}{/color}{/font}' xpos 138 ypos 2
                      elif number_npc == popularity_pool:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Клуб плавания{/size}{/color}{/font}' ypos 5
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Swimming Club{/size}{/color}{/font}' ypos 5
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 175 ypos 5
                          if popularity_pool_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_pool_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 205 ypos 2
@@ -2364,7 +2364,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_pool_poc]){/size}{size=23} оп{/size}{/color}{/font}' xpos 205 ypos 2
                      elif number_npc == popularity_club_occult:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Клуб оккультизма{/size}{/color}{/font}'
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Occultism Club{/size}{/color}{/font}'
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 136
                          if popularity_club_occult_poc2 >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_club_occult_poc2]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 166 ypos 2
@@ -2373,7 +2373,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_club_occult_poc2]){/size}{size=23} оп{/size}{/color}{/font}' xpos 166 ypos 2
                      elif number_npc == popularity_athletics:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Клуб легкой атлетики{/size}{/color}{/font}' ypos 3
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Athletics Club{/size}{/color}{/font}' ypos 3
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 92 ypos 3
                          if popularity_athletics_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_athletics_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 122 ypos 2
@@ -2382,7 +2382,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_athletics_poc]){/size}{size=23} оп{/size}{/color}{/font}' xpos 122 ypos 2
                      elif number_npc == popularity_art:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Художественный клуб{/size}{/color}{/font}' ypos 1
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Art Club{/size}{/color}{/font}' ypos 1
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 86 ypos 1
                          if popularity_art_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_art_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 116 ypos 2
@@ -2391,7 +2391,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_art_poc]){/size}{size=23} оп{/size}{/color}{/font}' xpos 116 ypos 2
                      elif number_npc == popularity_science:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Клуб естествознания{/size}{/color}{/font}'
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Natural History Club{/size}{/color}{/font}'
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 101
                          if popularity_science_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_science_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 131 ypos 2
@@ -2400,7 +2400,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_science_poc]){/size}{size=23} оп{/size}{/color}{/font}' xpos 131 ypos 2
                      elif number_npc == popularity_literature:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Литературный клуб{/size}{/color}{/font}'
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Literary Club{/size}{/color}{/font}'
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 121
                          if popularity_literature_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_literature_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 151 ypos 2
@@ -2409,7 +2409,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_literature_poc]){/size}{size=23} оп{/size}{/color}{/font}' xpos 151 ypos 2
                      elif number_npc == popularity_drama:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Клуб драмы и комедии{/size}{/color}{/font}'
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Drama and Comedy Club{/size}{/color}{/font}'
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 83
                          if popularity_drama_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_drama_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 113 ypos 2
@@ -2418,7 +2418,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_drama_poc]){/size}{size=23} оп{/size}{/color}{/font}' xpos 113 ypos 2
                      elif number_npc == popularity_detective:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Детективный клуб{/size}{/color}{/font}'
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Detective Club{/size}{/color}{/font}'
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 130
                          if popularity_detective_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_detective_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 160 ypos 2
@@ -2427,7 +2427,7 @@ screen stats_club_occult:
                          else:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ([popularity_detective_poc]){/size}{size=23} оп{/size}{/color}{/font}' xpos 160 ypos 2
                      elif number_npc == popularity_journalism:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Клуб журналистики{/size}{/color}{/font}'
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Club of Journalism{/size}{/color}{/font}'
                          text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 114
                          if popularity_journalism_poc >= 1:
                              text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=26}[number_npc] ({/color}{color=#578426}▲ [popularity_journalism_poc]{/color}{color=#282828}){/size}{size=23} оп{/size}{/color}{/font}' xpos 144 ypos 2
@@ -2477,7 +2477,7 @@ screen stats_club_occult:
                  if poster == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}1500 к.{/size}{/color}{/font}" ypos 4 xpos 5
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}1500 с.{/size}{/color}{/font}" ypos 4 xpos 5
                      if budget_club_occult >= 1500:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('poster', 1), SetVariable('budget_club_occult', budget_club_occult-1500)
@@ -2488,7 +2488,7 @@ screen stats_club_occult:
                  if refrigerator == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}5000 к.{/size}{/color}{/font}" ypos 4 xpos 5
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}5000 с.{/size}{/color}{/font}" ypos 4 xpos 5
                      if budget_club_occult >= 5000:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('refrigerator', 1), SetVariable('budget_club_occult', budget_club_occult-5000)
@@ -2499,7 +2499,7 @@ screen stats_club_occult:
                  if playstation == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}7000 к.{/size}{/color}{/font}" ypos 4 xpos 5
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}7000 с.{/size}{/color}{/font}" ypos 4 xpos 5
                      if budget_club_occult >= 7000:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('playstation', 1), SetVariable('budget_club_occult', budget_club_occult-7000)
@@ -2510,7 +2510,7 @@ screen stats_club_occult:
                  if furniture == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}8000 к.{/size}{/color}{/font}" ypos 4 xpos 5
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}8000 с.{/size}{/color}{/font}" ypos 4 xpos 5
                      if budget_club_occult >= 8000:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('furniture', 1), SetVariable('budget_club_occult', budget_club_occult-8000)
@@ -2521,7 +2521,7 @@ screen stats_club_occult:
                  if tablet == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}9000 к.{/size}{/color}{/font}" ypos 4 xpos 5
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}9000 с.{/size}{/color}{/font}" ypos 4 xpos 5
                      if budget_club_occult >= 9000:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('tablet', 1), SetVariable('budget_club_occult', budget_club_occult-9000)
@@ -2532,7 +2532,7 @@ screen stats_club_occult:
                  if camera == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}10000 к.{/size}{/color}{/font}" ypos 4 xpos 0
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}10000 с.{/size}{/color}{/font}" ypos 4 xpos 0
                      if budget_club_occult >= 10000:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('camera', 1), SetVariable('budget_club_occult', budget_club_occult-10000)
@@ -2543,7 +2543,7 @@ screen stats_club_occult:
                  if vacuum == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}12000 к.{/size}{/color}{/font}" ypos 4 xpos 0
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}12000 с.{/size}{/color}{/font}" ypos 4 xpos 0
                      if budget_club_occult >= 12000:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('vacuum', 1), SetVariable('budget_club_occult', budget_club_occult-12000)
@@ -2554,7 +2554,7 @@ screen stats_club_occult:
                  if tablet_painting == 0:
                      hover_background "gui/club_control/icons/buy_hover.png"
                      add "gui/club_control/icons/buy_idle.png"
-                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}15000 к.{/size}{/color}{/font}" ypos 4 xpos 0
+                     textbutton "{font=gui/fonts/ubuntu.ttf}{color=#282828}{size=18}15000 с.{/size}{/color}{/font}" ypos 4 xpos 0
                      if budget_club_occult >= 15000:
                          idle_background "gui/club_control/icons/buy_idle.png"
                          action SetVariable('tablet_painting', 1), SetVariable('budget_club_occult', budget_club_occult-15000)
@@ -2625,9 +2625,9 @@ screen stats_club_occult:
                  if dialoge == 0:
                      idle_background "gui/club_control/hover_list.png"
                  hover_background "gui/club_control/hover_list.png"
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Аяно Ёшида{/size}{/color}{/font}'
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Ayano Yoshida{/size}{/color}{/font}'
                  text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}'  xpos 260
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Бездельничает{/size}{/color}{/font}'  xpos 295
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Lounging{/size}{/color}{/font}'  xpos 295
                  action SetVariable('dialoge', 0)
              for number_npc in range(3, number_occult_club+1):
                  python:
@@ -2652,98 +2652,98 @@ screen stats_club_occult:
                      text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}[name_npc]{/size}{/color}{/font}'
                      text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}:{/size}{/color}{/font}' xpos 260
                      if club_joob == 1:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Пишет статьи{/size}{/color}{/font}' xpos 295
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Writes articles{/size}{/color}{/font}' xpos 295
                      elif club_joob == 2:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Убирается{/size}{/color}{/font}' xpos 295
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Removable{/size}{/color}{/font}' xpos 295
                      elif club_joob == 3:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Готовится к фестивалю{/size}{/color}{/font}' xpos 295
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Getting ready for the festival{/size}{/color}{/font}' xpos 295
                      elif club_joob == 4:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Работает над проектом{/size}{/color}{/font}' xpos 295
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}He is working on a project{/size}{/color}{/font}' xpos 295
                      elif club_joob == 5:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Бездельничает{/size}{/color}{/font}' xpos 295
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Lounging{/size}{/color}{/font}' xpos 295
                      elif club_joob == 6:
-                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Поиск новичков{/size}{/color}{/font}' xpos 295
-                     hovered SetVariable('random', perk), tt.Action ("Подсказка")
+                         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Search for newcomers{/size}{/color}{/font}' xpos 295
+                     hovered SetVariable('random', perk), tt.Action ("Hint")
                      action SetVariable('dialoge', number_npc-2), SetVariable('number_npc', number_npc), SetVariable('club_complete', 0), SetVariable('club_joob', club_joob), Show('afas')
                  python:
                      if club_joob == 5:
-                         if perk == 'Ленивый':
+                         if perk == 'Lazy':
                              authority_club_occult_poc1 += 0.2
                          authority_club_occult_poc1 += 0.3
                      elif club_joob == 4:
-                         if perk == 'Одиночка':
+                         if perk == 'Single':
                              if global_project_human <= 2:
                                  global_project_poc1 += 2
                              else:
                                  global_project_poc1 -= 1
-                         elif perk == 'Командный':
+                         elif perk == 'Team':
                              if global_project_human >= 3:
                                  global_project_poc1 += 2
                              else:
                                  global_project_poc1 -= 1
                          if camera == 1:
                              global_project_poc1 += 1
-                         if perk == 'Старательный':
+                         if perk == 'Endeavour':
                              global_project_poc1 += 2
-                         if perk == 'Вялый':
+                         if perk == 'Sleepy':
                              global_project_poc1 -= 2
-                         if perk == 'Фонтан идей':
+                         if perk == 'Fountain of ideas':
                              authority_club_occult_poc1 += 1.5
-                         elif perk == 'Верный':
+                         elif perk == 'Faithful':
                              authority_club_occult_poc1 += 0.6
                          authority_club_occult_poc1 -= 1.5
                          global_project_poc1 += 3
                      elif club_joob == 3:
-                         if perk == 'Одиночка':
+                         if perk == 'Single':
                              if festivale_human <= 2:
                                  festivale_poc1 += 2
                              else:
                                  festivale_poc1 -= 1
-                         elif perk == 'Командный':
+                         elif perk == 'Team ':
                              if festivale_human >= 3:
                                  festivale_poc1 += 2
                              else:
                                  festivale_poc1 -= 1
-                         if perk == 'Старательный':
+                         if perk == 'Endeavour':
                              festivale_poc1 += 1
-                         if perk == 'Вялый':
+                         if perk == 'Sleepy':
                              festivale_poc1 -= 2
-                         if perk == 'Фонтан идей':
+                         if perk == 'Fountain of ideas':
                              authority_club_occult_poc1 += 0.5
-                         elif perk == 'Верный':
+                         elif perk == 'Faithful':
                              authority_club_occult_poc1 += 0.1
                          authority_club_occult_poc1 -= 0.5
                          festivale_poc1 += 4
                      elif club_joob == 2:
-                         if perk == 'Одиночка':
+                         if perk == 'Single':
                              if purity_human <= 2:
                                  purity_club_occult_poc1 += 10
                              else:
                                  purity_club_occult_poc1 += 2
-                         elif perk == 'Командный':
+                         elif perk == 'Team':
                              if purity_human <= 2:
                                  purity_club_occult_poc1 += 10
                              else:
                                  purity_club_occult_poc1 += 2
-                         if perk == 'Вялый':
+                         if perk == 'Sleepy':
                              purity_club_occult_poc1 -= 6
-                         if perk == 'Чистюля':
+                         if perk == 'Cleaning':
                              purity_club_occult_poc1 += 10
-                         if perk == 'Фонтан идей':
+                         if perk == 'Fountain of ideas':
                              authority_club_occult_poc1 += 0.3
-                         elif perk == 'Верный':
+                         elif perk == 'Faithful':
                              authority_club_occult_poc1 += 0.1
                          authority_club_occult_poc1 -= 0.3
                          purity_club_occult_poc1 += 10
-                         if perk == 'Неряха':
+                         if perk == 'Nerja':
                              purity_club_occult_poc1 -= 10
                      elif club_joob == 1:
-                         if perk == 'Одиночка':
+                         if perk == 'Single':
                              if articles_human <= 2:
                                  popularity_club_occult_poc1 += 3
                              else:
                                  popularity_club_occult_poc1 -= 1
-                         elif perk == 'Командный':
+                         elif perk == 'Team':
                              if articles_human >= 3:
                                  popularity_club_occult_poc1 += 2
                              else:
@@ -2752,36 +2752,36 @@ screen stats_club_occult:
                              popularity_club_occult_poc1 += 1
                          if tablet_painting == 1:
                              popularity_club_occult_poc1 += 2
-                         if perk == 'Быстро печатает':
+                         if perk == 'Quickly prints':
                              popularity_club_occult_poc1 += 1
-                         if perk == 'Вялый':
+                         if perk == 'Sleepy':
                              popularity_club_occult_poc1 -= 1
                          popularity_club_occult_poc1 += 2
-                         if perk == 'Фонтан идей':
+                         if perk == 'Fountain of ideas':
                              authority_club_occult_poc1 += 0.4
-                         elif perk == 'Верный':
+                         elif perk == 'Faithful':
                              authority_club_occult_poc1 += 0.1
                          authority_club_occult_poc1 -= 0.4
                      elif club_joob == 6:
-                         if perk == 'Одиночка':
+                         if perk == 'Single':
                              if articles_human <= 2:
                                  find_human_club_occult_poc += 2
                              else:
                                  find_human_club_occult_poc -= 1
-                         elif perk == 'Командный':
+                         elif perk == 'Team':
                              if articles_human >= 3:
                                  find_human_club_occult_poc += 1
                              else:
                                  find_human_club_occult_poc -= 1
-                         if perk == 'Вялый':
+                         if perk == 'Sleepy':
                              find_human_club_occult_poc -= 1
                          find_human_club_occult_poc += 2
-                         if perk == 'Фонтан идей':
+                         if perk == 'Fountain of ideas':
                              authority_club_occult_poc1 += 0.4
-                         elif perk == 'Верный':
+                         elif perk == 'Loyal':
                              authority_club_occult_poc1 += 0.1
                          authority_club_occult_poc1 -= 0.4
-                     if perk == 'Неряха':
+                     if perk == 'Nerja':
                          purity_club_occult_poc1 -= 10
                      authority_club_occult_poc1 = authority_club_occult_poc1
                      popularity_club_occult_poc1 = popularity_club_occult_poc1
@@ -2828,123 +2828,123 @@ screen stats_club_occult:
              popularity_club_occult1212 = round(popularity_club_occult, 2)
              authority_club_occult1212 = round(authority_club_occult, 2)
          if authority_club_occult_poc <= 0:
-             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Авторитет: [authority_club_occult1212] ([authority_club_occult_poc]{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.86
+             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Reputation: [authority_club_occult1212] ([authority_club_occult_poc]{/size}{size=20} per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.86
          else:
-             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Авторитет: [authority_club_occult1212] (+[authority_club_occult_poc]{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.86
+             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Reputation: [authority_club_occult1212] (+[authority_club_occult_poc]{/size}{size=20}per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.86
          if popularity_club_occult_poc <= 0:
-             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Популярность клуба: [popularity_club_occult1212] ([popularity_club_occult_poc]{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.89
+             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Popularity of the club: [popularity_club_occult1212] ([popularity_club_occult_poc]{/size}{size=20} per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.89
          else:
-             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Популярность клуба: [popularity_club_occult1212] (+[popularity_club_occult_poc]{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.89
-         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Число участников: [number_occult_club]{/size}{/color}{/font}' xpos 875 yalign 0.95
-         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Готовность к фестивалю: [festivale]% (+[festivale_poc]%{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.76
-         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Готовность проекта: [global_project]% (+[global_project_poc]%{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.79
+             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Popularity of the club: [popularity_club_occult1212] (+[popularity_club_occult_poc]{/size}{size=20} per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.89
+         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Number of participants: [number_occult_club]{/size}{/color}{/font}' xpos 875 yalign 0.95
+         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Ready for the festival: [festivale]% (+[festivale_poc]%{/size}{size=20} per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.76
+         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Project Ready: [global_project]% (+[global_project_poc]%{/size}{size=20} per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.79
          if purity_club_occult_poc >= 1:
-             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Чистота клубной комнаты: [purity_club_occult]% (+[purity_club_occult_poc]%{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.73
+             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Cleanliness of the club room: [purity_club_occult]% (+[purity_club_occult_poc]%{/size}{size=20} per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.73
          else:
-             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Чистота клубной комнаты: [purity_club_occult]% ([purity_club_occult_poc]%{/size}{size=20} в день{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.73
+             text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Cleanliness of the club room: [purity_club_occult]% ([purity_club_occult_poc]%{/size}{size=20} per day{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.73
 
-         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Возможный новый участник клуба: [find_human_club_occult_poc1]%{/size}{/color}{/font}' xpos 875 yalign 0.7
-         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Бюджет: [budget_club_occult] (+[budget_club_occult_plus] в неделю{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.92
+         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Possible new club member: [find_human_club_occult_poc1]%{/size}{/color}{/font}' xpos 875 yalign 0.7
+         text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Budget: [budget_club_occult] (+[budget_club_occult_plus] per week{/size}{size=24}){/size}{/color}{/font}' xpos 875 yalign 0.92
      if tt.value != "":
          $ (x, y) = renpy.get_mouse_pos ()
-         if random == 'Школьная знаменитость':
+         if random == 'School celebrity':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.1)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 25 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#448200}{size=24}+40{/size}{/color}{/font}{color=#282828}{size=24}{font=gui/fonts/alegreya.ttf} популярности при{/size}{/color}{/font}' xpos 40 ypos 43
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}вступлении в клуб{/size}{/color}{/font}' xpos 60 ypos 75
-         elif random == 'Бережливый':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#448200}{size=24}+40{/size}{/color}{/font}{color=#282828}{size=24}{font=gui/fonts/alegreya.ttf} popularity for{/size}{/color}{/font}' xpos 40 ypos 43
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}club membership{/size}{/color}{/font}' xpos 60 ypos 75
+         elif random == 'Lean':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25):
                      size(715, 120)
-                 text '{font=gui/fonts/alegreya.ttf}{size=24}Бережливый{/size}{/font}' xpos 250 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#448200}{size=24}+50% {/size}{/font}{/color}{color=#282828}{font=gui/fonts/alegreya.ttf}{size=24}и более от суммы, которая была вложена в подготовку,{/size}{/color}{/font}' xpos 5 ypos 42
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}возвращается после завершения проекта/фестиваля.{/size}{/color}{/font}' xpos 40 ypos 75
-         elif random == 'Неряха':
+                 text '{font=gui/fonts/alegreya.ttf}{size=24}Lean{/size}{/font}' xpos 250 ypos 10
+                 text '{font=gui/fonts/alegreya.ttf}{color=#448200}{size=24}+50% {/size}{/font}{/color}{color=#282828}{font=gui/fonts/alegreya.ttf}{size=24}and more from the amount that was invested in the training,{/size}{/color}{/font}' xpos 5 ypos 42
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}comes back after the project/festival.{/size}{/color}{/font}' xpos 40 ypos 75
+         elif random == 'Nerja':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.1):
                      size(480, 120)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}Неряха{/size}{/font}' xpos 180 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Пока этот участник находится в клубе,{/size}{/color}{/font}' xpos 10 ypos 45
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}комната загрязняется быстрее.{/size}{/color}{/font}' xpos 55 ypos 75
-         elif random == 'Ленивый':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}While this member is at the club,{/size}{/color}{/font}' xpos 10 ypos 45
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}the room gets polluted faster.{/size}{/color}{/font}' xpos 55 ypos 75
+         elif random == 'Lazy':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.1)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 115 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}В конце дня сбрасывается{/size}{/color}{/font}' xpos 20 ypos 42
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}деятельность на безделье{/size}{/color}{/font}' xpos 23 ypos 73
-         elif random == 'Верный':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}At the end of the day, it is dropped{/size}{/color}{/font}' xpos 20 ypos 42
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}idling activities{/size}{/color}{/font}' xpos 23 ypos 73
+         elif random == 'Loyal':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.15)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 130 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Требует на 25% меньше очков{/size}{/color}{/font}' xpos 10 ypos 45
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}авторитета для работы{/size}{/color}{/font}' xpos 50 ypos 77
-         elif random == 'Фонтан идей':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Requires 25% less points.{/size}{/color}{/font}' xpos 10 ypos 45
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}authority to work{/size}{/color}{/font}' xpos 50 ypos 77
+         elif random == 'Fountain of ideas':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 110 ypos 11
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Для работы данному участнику{/size}{/color}{/font}' xpos 10 ypos 50
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}не нужно очков авторитета{/size}{/color}{/font}' xpos 40 ypos 87
-         elif random == 'Старательный':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}To work for this participant{/size}{/color}{/font}' xpos 10 ypos 50
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}no need for points of authority{/size}{/color}{/font}' xpos 40 ypos 87
+         elif random == 'Endeavour':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 95 ypos 11
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}К готовность проекта:{/color}{color=#448200} +2%{/size}{/color}{/font}' xpos 40 ypos 47
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}К готовности к фестивалю:{/color}{color=#448200} +1%{/size}{/color}{/font}' xpos 10 ypos 83
-         elif random == 'Быстро печатает':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Project ready:{/color}{color=#448200} +2%{/size}{/color}{/font}' xpos 40 ypos 47
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}In readiness for the festival:{/color}{color=#448200} +1%{/size}{/color}{/font}' xpos 10 ypos 83
+         elif random == 'Quickly prints':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25):
                      size(620, 140)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 25 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Увеличивает получаемые очки популярности{/size}{/color}{/font}' xpos 10 ypos 50
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}за написание статей на{/color}{color=#448200} +50%{/size}{/color}{/font}' xpos 60 ypos 87
-         elif random == 'Вялый':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Increases the popularity points obtained{/size}{/color}{/font}' xpos 10 ypos 50
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}for writing articles on{/color}{color=#448200} +50%{/size}{/color}{/font}' xpos 60 ypos 87
+         elif random == 'Sleepy':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 140 ypos 12
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Уменьшаются получаемые очки{/size}{/color}{/font}' xpos 5 ypos 50
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}за любую деятельность на{/color}{color=#9a0000} -60%{/size}{/color}{/font}' xpos 10 ypos 85
-         elif random == 'Одиночка':
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Received points are reduced{/size}{/color}{/font}' xpos 5 ypos 50
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}for any activity on{/color}{color=#9a0000} -60%{/size}{/color}{/font}' xpos 10 ypos 85
+         elif random == 'Single':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25):
                      size(550, 140)
-                 text '{font=gui/fonts/alegreya.ttf}{size=24}Одиночка{/size}{/font}' xpos 200 ypos 12
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Если участник клуба работает один то, очки{/size}{/color}{/font}' xpos 10 ypos 50
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}за любую деятельность повышаются на{/color}{color=#448200} +75%{/size}{/color}{/font}' xpos 5 ypos 85
-         elif random == 'Командный':
+                 text '{font=gui/fonts/alegreya.ttf}{size=24}Single{/size}{/font}' xpos 200 ypos 12
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}If a club member works alone, the glasses{/size}{/color}{/font}' xpos 10 ypos 50
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}for any activity are increased by{/color}{color=#448200} +75%{/size}{/color}{/font}' xpos 5 ypos 85
+         elif random == 'Team':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25):
                      size(720, 140)
-                 text '{font=gui/fonts/alegreya.ttf}{size=24}Командный{/size}{/font}' xpos 280 ypos 12
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Если участник клуба работает с тремя участниками и более,{/size}{/color}{/font}' xpos 10 ypos 53
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}очки за любую деятельность повышаются на{/color}{color=#448200} +75%{/size}{/color}{/font}' xpos 70 ypos 86
-         elif random == 'Самостоятельный':
+                     text '{font=gui/fonts/alegreya.ttf}{size=24}Team{/size}{/font}' xpos 280 ypos 12
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}If a club member works with three or more members,{/size}{/color}{/font}' xpos 10 ypos 53
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}points for any activity are increased by{/color}{color=#448200} +75%{/size}{/color}{/font}' xpos 70 ypos 86
+         elif random == 'Stand alone':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25):
                      size(470, 120)
-                 text '{font=gui/fonts/alegreya.ttf}{size=24}Самостоятельный{/size}{/font}' xpos 115 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Если участник бездельничает, то он{/size}{/color}{/font}' xpos 20 ypos 43
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}выберет деятельность самостоятельно{/size}{/color}{/font}' xpos 5 ypos 74
-         elif random == 'Заядлый игрок':
+                 text '{font=gui/fonts/alegreya.ttf}{size=24}Stand alone{/size}{/font}' xpos 115 ypos 10
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}If the participant is idling, he is{/size}{/color}{/font}' xpos 20 ypos 43
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}call the shots{/size}{/color}{/font}' xpos 5 ypos 74
+         elif random == 'Avid player':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.25):
                      size(580, 120)
-                 text '{font=gui/fonts/alegreya.ttf}{size=24}Заядлый игрок{/size}{/font}' xpos 200 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Если в клубе есть игровая консоль, то участник{/size}{/color}{/font}' xpos 10 ypos 45
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}переодически будет бездельничать.{/size}{/color}{/font}' xpos 70 ypos 75
-         elif random == 'Омежка':
+                 text '{font=gui/fonts/alegreya.ttf}{size=24}Avid player{/size}{/font}' xpos 200 ypos 10
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}If there is a game console in the club, then the member{/size}{/color}{/font}' xpos 10 ypos 45
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}will occasionally be idling.{/size}{/color}{/font}' xpos 70 ypos 75
+         elif random == 'Symbiosis':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.1)
-                 text '{font=gui/fonts/alegreya.ttf}{size=24}Омежка{/size}{/font}' xpos 115 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#9a0000}{size=24}-40{/size}{/color}{/font}{color=#282828}{font=gui/fonts/alegreya.ttf}{size=24} популярности при{/size}{/color}{/font}' xpos 40 ypos 45
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}вступлении в клуб{/size}{/color}{/font}' xpos 60 ypos 75
-         elif random == 'Чистюля':
+                 text '{font=gui/fonts/alegreya.ttf}{size=24}Symbiosis{/size}{/font}' xpos 115 ypos 10
+                 text '{font=gui/fonts/alegreya.ttf}{color=#9a0000}{size=24}-40{/size}{/color}{/font}{color=#282828}{font=gui/fonts/alegreya.ttf}{size=24} popularity for{/size}{/color}{/font}' xpos 40 ypos 45
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}club membership{/size}{/color}{/font}' xpos 60 ypos 75
+         elif random == 'Cleaning':
              button xpos x ypos y:
                  add im.Rotozoom('gui/club_control/character_npc.png', 0, 1.1):
                      size(390, 120)
                  text '{font=gui/fonts/alegreya.ttf}{size=24}[random]{/size}{/font}' xpos 130 ypos 10
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Уборка клубной комнаты:{/color}{color=#448200} +50%{/size}{/color}{/font}' xpos 10 ypos 39
-                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}и более.{/size}{/color}{/font}' xpos 140 ypos 75
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}Cleaning the club room:{/color}{color=#448200} +50%{/size}{/color}{/font}' xpos 10 ypos 39
+                 text '{font=gui/fonts/alegreya.ttf}{color=#282828}{size=24}and more.{/size}{/color}{/font}' xpos 140 ypos 75
 screen character_npc:
      python:
          npc_id = 'name_club_npc_occult'+str(number_npc)
@@ -2955,49 +2955,49 @@ screen afas:
          club_joob = eval(npc_id)["club_joob"]
      imagebutton xpos 590 ypos 730:
          if club_joob == 1:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Писать статьи{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Write articles{/u}{/size}{/color}{/font}')
          else:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Писать статьи{/size}{/color}{/font}')
-             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Писать статьи{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Write articles{/size}{/color}{/font}')
+             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Write articles{/u}{/size}{/color}{/font}')
          if authority_club_occult >= 0.1:
              action SetVariable('club_complete', 1), SetVariable('number_npc', number_npc), Jump('manager_club_occult')
      imagebutton xpos 590 ypos 765:
          if club_joob == 2:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Убираться в комнате{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Cleaning the room.{/u}{/size}{/color}{/font}')
          else:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Убираться в комнате{/size}{/color}{/font}')
-             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Убираться в комнате{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Cleaning the room.{/size}{/color}{/font}')
+             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Cleaning the room.{/u}{/size}{/color}{/font}')
          if authority_club_occult >= 0.1:
              action SetVariable('club_complete', 2), SetVariable('number_npc', number_npc), Jump('manager_club_occult')
      imagebutton xpos 590 ypos 800:
          if club_joob == 3:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Готовиться к фестивалю{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Get ready for the festival{/u}{/size}{/color}{/font}')
          else:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Готовиться к фестивалю{/size}{/color}{/font}')
-             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Готовиться к фестивалю{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Get ready for the festival{/size}{/color}{/font}')
+             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Get ready for the festival{/u}{/size}{/color}{/font}')
          if authority_club_occult >= 0.1:
              action SetVariable('club_complete', 3), SetVariable('number_npc', number_npc), Jump('manager_club_occult')
      imagebutton xpos 590 ypos 833:
          if club_joob == 4:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Работать над проектом{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Work on a project{/u}{/size}{/color}{/font}')
          else:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Работать над проектом{/size}{/color}{/font}')
-             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Работать над проектом{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Work on a project{/size}{/color}{/font}')
+             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Work on a project{/u}{/size}{/color}{/font}')
          if authority_club_occult >= 0.1:
              action SetVariable('club_complete', 4), SetVariable('number_npc', number_npc), Jump('manager_club_occult')
      imagebutton xpos 590 ypos 867:
          if club_joob == 6:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Поиск людей{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Searching for people{/u}{/size}{/color}{/font}')
          else:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Поиск людей{/size}{/color}{/font}')
-             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Поиск людей{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Searching for people{/size}{/color}{/font}')
+             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Searching for people{/u}{/size}{/color}{/font}')
          action SetVariable('club_complete', 6), SetVariable('number_npc', number_npc), Jump('manager_club_occult')
      imagebutton xpos 590 ypos 901:
          if club_joob == 5:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Отдыхать{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Rest{/u}{/size}{/color}{/font}')
          else:
-             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Отдыхать{/size}{/color}{/font}')
-             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Отдыхать{/u}{/size}{/color}{/font}')
+             idle Text('{font=gui/fonts/alegreya.ttf}{color=505050}{size=22}Rest{/size}{/color}{/font}')
+             hover Text('{font=gui/fonts/alegreya.ttf}{color=#373737}{size=22}{u}Rest{/u}{/size}{/color}{/font}')
          action SetVariable('club_complete', 5), SetVariable('number_npc', number_npc), Jump('manager_club_occult')
 label ayano1:
      if hour <= 7:
@@ -3008,37 +3008,37 @@ label ayano1:
          scene club_occult_v
      else:
          scene club_occult_v
-     "Посчитав верным решением посмотреть, что делает Аяно, вы отбросили свои дела и перекинули свой взор на вашего соклубовца."
+     "When you thought it was the right decision to see what Ayano was doing, you threw your business away and turned your gaze on your slacker."
      if rand_ayano == 0:
-         "Но... С прошлого раза ничего не изменилось в действиях девушки."
+         "But... Since last time, nothing has changed in the girl's actions."
          call screen occult_club_control
      elif rand_ayano == 1:
          show ayano g33
-         ayanogg1 "ТУПАЯ ИГРА!" with vpunch
-         "Похоже, что Аяно потерпела поражение в своей очередной игрушке, отчего и ударила свою портативную консоль об стол. И как бедная консоль только выдерживает такие удары?"
+         ayanogg1 "STUPID GAME!" with vpunch
+         "It looks like Ayano was defeated in her next toy, which is why she hit her portable console on the table. And how does a poor console only withstand such blows?"
          show ayano g25
          ayanogg1 "Извини! Я случайно!"
-         "Извиняющаяся девушка перед консолью... Вид достаточно глупый, но веселый. Не хватает только попкорна, чтобы полностью насладиться зрелищем."
+         "Apologizing girl in front of the console... The view is stupid enough, but funny. All it takes is popcorn to fully enjoy the spectacle."
          show ayano g29
-         "Заприметив, что за ней наблюдают, девушка кинула свой взор на вас и явно удивилась такому повороту событий."
+         "Noticing she was being watched, the girl threw her eyes at you and was clearly surprised at this turn of events."
          show ayano g26
-         ayanogg1 "Знаешь, сталкеров в нашей стране недолюбливают, так что будь осторожен."
+         ayanogg1 "You know, stalkers are not liked in this country, so be careful."
          $ rand_ayano = 0
          hide ayano
          call screen occult_club_control
      elif rand_ayano == 2:
-         "Девушка просто сидела и увлеченно записывала что-то в тетрадь, при этом мирно покачивая ногами, как маленький ребенок. Видимо, она делала домашнее задание. По крайней мере об этом говорили открытые учебники, лежащие на столе, возле нее."
+         "The girl just sat there and enthusiastically wrote something down in her notebook while peacefully shaking her legs like a little kid. Apparently, she was doing her homework. At least that's what the open books on the table next to her were talking about."
          $ rand_ayano = 0
          call screen occult_club_control
      elif rand_ayano == 3 or rand_ayano == 4:
-         "Девушка, расслабленно лежащая на стуле, от безделья махала своими ножками, отчего ее юбка иногда сильно приподнималась, открывая вид на большую часть бедра. Недолго наслаждаясь видом, вскоре вы отвернулись, уповая на внезапные дела."
+         "The girl, lying relaxed in a chair, waved her legs from idleness, which is why her skirt sometimes rose strongly, opening up a view of most of her hip. Not enjoying the view for long, you soon turned your back, hoping for a sudden thing."
          if hentai_patch_inicial == True:
              $ depravity_ayano += 1
-             "{color=#BC8F8F}{b}Развратность девушки немного увеличилась!{/b}{/color}"
+             "{color=#BC8F8F}{b}The girl's depravity has increased slightly!{/b}{/color}"
          $ rand_ayano = 0
          call screen occult_club_control
      elif rand_ayano == 5:
-         "Мирно спящая девушка радовала своей миловидностью глаз. Вскоре она, мнимо кажущаяся совершенно беззащитной, снова окажется ненормальной и черезчур энергичной в своих действиях. Достаточно иронично..."
+         "The peacefully sleeping girl was delighted with her sweet eyes. Soon she seemed to be completely defenseless, again will be abnormal and too energetic in their actions. It's ironic enough..."
          $ rand_ayano = 0
          call screen occult_club_control
      else:
@@ -3056,75 +3056,75 @@ label ayano2:
      $ minute += renpy.random.randint(26, 35)
      $ energy -= 4
      if dialoge == 1:
-         "Решив, что лучшее времяпрепровождение - общение с вашей новоиспеченной подругой, вы сели близ нее, упав своей пятой точкой на стул, и начали диалог о насущном. Вскоре, через тридцать минут, вы окончили разговор, начав заниматься каждый своими делами."
+         "Having decided that your best pastime was to communicate with your new friend, you sat down close to her, falling with your fifth dot on a chair, and began a dialogue about what was important. Soon, thirty minutes later, you ended the conversation, starting to do each of your own things."
          $ chance_dialoge = renpy.random.randint(1, 100)
          if chance_dialoge1 >= 100:
              $ chance_dialoge1 = 100
          if chance_dialoge <= chance_dialoge1:
              $ chance_dialoge = renpy.random.randint(1, 100)
              if chance_dialoge <= chance_dialoge1 / 1.4:
-                 "Разговаривая с девушкой, вы проявляли максимум своего красноречия, отчего и диалог проходил просто прекрасно. Аяно и вы - прекрасно провели время и неплохо сблизились за эти тридцать минут."
+                 "When you talked to the girl, you showed maximum eloquence, which is why the dialogue was just fine. Ayano and you had a great time and got to know each other quite well in those thirty minutes."
                  $ ayano_dialoge += 1
                  $ ayano_contact += 2
              else:
                  show ayano g32
                  $ ayano_dialoge += 1
                  $ ayano_contact += 1
-                 "Найдя точку соприкосновения, ваш диалог прошел довольно удачно, не считая неких неловких моментов. В общем и в целом, даже девушке понравилось такое времяпрепровождение, так что это можно назвать неким успехом."
-                 "Но главное, что вы получили свою награду: милая улыбка девушки, а также ее улучшенное мнение насчет вас."
-             "{color=#BC8F8F}{b}Отношения с девушкой улучшились!{/b}{/color}"
+                 "Having found a point of contact, your dialogue went quite well, not to mention some embarrassing moments. In general, even the girl liked such a pastime, so it can be called a kind of success."
+                 "But the main thing is that you got your award: a nice smile of a girl, and her improved opinion about you."
+             "{color=#BC8F8F}{b}Relationships with the girl have improved!{/b}{/color}"
          else:
              show ayano g34
-             "Прошедший диалог можно назвать удачным с натяжкой, но оное - точно не предел в успешном времяпрепровождении. По крайней мере об этом говорило недовольное лицо девушки."
+             "The dialogue that was held was successful with a stretch, but it wasn't exactly the limit of a successful pastime. At least that's what the disgruntled face of the girl was talking about."
              $ ayano_dialoge += 1
              $ ayano_contact -= 1
      elif dialoge == 2:
-         "Решив, что лучшая тема для разговора с Аяно - школьная тематика, вы начали ей рассказывать о разных нововведениях в школах со стороны МО и других вещах, что попросту не интересны многим."
+         "Having decided that the best topic to talk to Ayano is the school topic, you started to tell her about different innovations in schools by the Ministry of Defense and other things, which are simply not interesting to many people".
          $ chance_dialoge = renpy.random.randint(1, 100)
          if chance_dialoge3 >= 100:
              $ chance_dialoge3 = 100
          if chance_dialoge <= chance_dialoge3:
              $ chance_dialoge = renpy.random.randint(1, 100)
              if chance_dialoge <= chance_dialoge3 / 1.4:
-                 "Хоть подобная тема девушке явно не интересна, но ей интересна ваша компания, буквально поднимавшая настроение. Казалось, что какой бы вы бред не говорили, она будет вас слушать и довольно кивать."
+                 "Although such a topic is obviously not interesting to the girl, but she is interested in your company, literally uplifting. It seemed that no matter how crazy you talk, she'd listen to you and nod rather."
                  $ ayano_dialoge += 1
                  $ ayano_contact += 1
-                 "{color=#BC8F8F}{b}Отношения с девушкой улучшились!{/b}{/color}"
+                 "{color=#BC8F8F}{b}Relationships with the girl have improved!{/b}{/color}"
              else:
                  show ayano g34
-                 "Как бы вы не старались заинтересовать девушку, ничего не получалось. Казалось, что она была создана не для учебы, а для веселья, которого ей сейчас так не хватало..."
-                 "В любом случае весь этот диалог достиг своего апогея, ведь девушка уснула на парте, а вы так ничего и не получили, кроме высказывания длительного монолога с вашей стороны, который Аяно явно был не интересен."
+                 "No matter how hard you try to get the girl interested, it didn't work out. "It seemed that she wasn't made for study, but for the fun she was so lacking now..."
+                 "In any case, all this dialogue reached its climax, because the girl fell asleep on the floor, and you never got anything but a long monologue from your side, which Ayano was clearly not interested in."
                  $ ayano_dialoge += 1
          else:
-             "Казалось, что ее милое выражение лица не изменит ничего, но, как только вы открыли свой рот насчет школы, в вас полетел пластиковый стаканчик, явно наполненный чем-то до этого броска."
+             "It seemed like her pretty face wouldn't change anything, but as soon as you opened your mouth about school, a plastic cup flew into you, clearly filled with something before the throw."
              show ayano g36
-             "Навряд ли такое времяпрепровождение можно назвать удачным, но все же вы получили свое: довольное и озаряющее лицо девушки вкупе с ее звонким, но от того и приятным смехом, создавало приятную атмосферу в клубной комнате."
+             "I don't think this kind of pastime can be called a good one, but still you got yours: the happy and illuminating face of a girl, combined with her ringing but pleasant laughter, created a pleasant atmosphere in the club room."
              $ ayano_dialoge += 1
              $ ayano_contact += 1
-             "{color=#BC8F8F}{b}Отношения с девушкой улучшились!{/b}{/color}"
+             "{color=#BC8F8F}{b}Relationships with the girl have improved!{/b}{/color}"
      elif dialoge == 3:
-         "Понимая, что лучшая тема для разговоров с Аяно - игровая тематика, вы начали с ней обсуждение новинок, классических игр и другого."
+         "Realizing that the best topic to talk to Ayano is the game theme, you started discussing novelties, classic games and more."
          $ chance_dialoge = renpy.random.randint(1, 100)
          if chance_dialoge5 >= 100:
              $ chance_dialoge5 = 100
          if chance_dialoge <= chance_dialoge5:
              $ chance_dialoge = renpy.random.randint(1, 100)
              if chance_dialoge <= chance_dialoge5 / 1.4:
-                 "Понимая, что девушке по большей степени уже приятна не сама тема диалога, а именно ваша компания, вы сразу же начали переходить на личные темы, результат которых сразу дал о себе знать."
+                 "Realizing that it is not the topic of dialogue, but your company, that the girl is more pleasant, you immediately began to move on personal topics, the result of which immediately made itself known."
                  $ ayano_dialoge += 1
                  $ ayano_contact += 3
                  $ ayano_trust += 1
-                 "{color=#BC8F8F}{b}Отношения с девушкой улучшились!{/b}{/color}"
+                 "{color=#BC8F8F}{b}Relationships with the girl have improved!{/b}{/color}"
              else:
-                 "С самого начала диалога его можно было назвать обреченным на успех, именно поэтому вы потихоньку переходили на более личные темы, которые сопровождались взаимными комплиментами."
+                 "From the very beginning of the dialogue, it was doomed to success, which is why you slowly moved on to more personal topics that were accompanied by mutual compliments."
                  $ ayano_dialoge += 1
                  $ ayano_contact += 2
-                 "{color=#BC8F8F}{b}Отношения с девушкой улучшились!{/b}{/color}"
+                 "{color=#BC8F8F}{b}Relationships with the girl have improved!{/b}{/color}"
          else:
-             "В конце концов, даже не зная толком девушку, вы нашли обущую точку соприкосновение и вели достаточно приятный диалог об играх, который вскоре закончился на приятной ноте."
+             "In the end, even without knowing the girl, you found a common point of contact and had a rather pleasant dialogue about games, which soon ended on a pleasant note."
              $ ayano_dialoge += 1
              $ ayano_contact += 1
-             "{color=#BC8F8F}{b}Отношения с девушкой улучшились!{/b}{/color}"
+             "{color=#BC8F8F}{b}Relationships with the girl have improved!{/b}{/color}"
      elif dialoge == 4:
          $ chance_dialoge = renpy.random.randint(1, 100)
          if chance_dialoge2 >= 100:
@@ -3133,69 +3133,69 @@ label ayano2:
              $ chance_dialoge = renpy.random.randint(1, 100)
              if chance_dialoge <= chance_dialoge2 / 1.4:
                  show ayano g22
-                 "Багровые щечки девушки показывали, что ваш романтический монолог она наконец-то начала воспринимать всерьез. Ну, или ей просто стало плохо в душной комнате..."
-                 "В любом же случае разговор прошел достаточно удачно, а вы с Аяно неплохо так продвинулись в отношениях."
+                 "The girl's purple cheeks showed she was finally taking your romantic monologue seriously. Well, or she just got sick in a stuffy room..."
+                 "Either way, the conversation went well enough and you and Ayano have made good progress in your relationship."
                  $ ayano_dialoge += 1
                  $ ayano_contact += 1
                  $ ayano_trust += 1
-                 "{color=#BC8F8F}{b}Отношения и доверие девушки улучшились!{/b}{/color}"
+                 "{color=#BC8F8F}{b}The girl's relationship and trust have improved!{/b}{/color}"
              else:
-                 "Вряд ли ваши потуги можно назвать чем-то удачным... За все время Аяно лишь махала ножками, сидя на стуле, как маленький ребенок, и качала головой, пытаясь притвориться, что ей интересна подобная тема."
-                 "Хоть подобное навряд ли назовешь успехом, но бедра девушки постоянно открывались вашему взору, а красивое тело всегда радует глаз. Вы получили награду, хоть и не ту, которую хотели."
+                 "I don't think your exertions are any good... All the time Ayano just waved her legs, sitting in a chair like a little child, and shook her head, trying to pretend she was interested in a subject like this."
+                 "Even though this is hardly a success, the girl's hips were always open to your eyes, and a beautiful body always pleases your eyes. "You received an award, though not the one you wanted."
                  $ ayano_dialoge += 1
                  $ ayano_contact += 1
-                 "{color=#BC8F8F}{b}Отношения с девушкой улучшились!{/b}{/color}"
+                 "{color=#BC8F8F}{b}Relationships with the girl have improved!{/b}{/color}"
          else:
              show ayano g37
-             "Как бы вы не пытались вывести монолог в диалог, ничего не выходило. Все было тщетно и, казалось, что девушку не интересует не только романтика, но и ваша речь, от которой оной становилось и вовсе скучно, о чем говорили ее постоянные зевки."
-             "После длительного монолога с вашей стороны Аяно и вовсе отрубилась, положив голову на парту и закрыв свои глазки. Похоже, что разговор был максимально неудачный."
+             "As much as you try to put the monologue into a dialogue, nothing came out. Everything was in vain, and it seemed that the girl was not only interested in romance, but also in your speech, from which it was becoming boring, as talked about by her constant yawns."
+             "After a long monologue on your part, Ayano passed out, putting her head on the desk and closing her eyes. "It seems that the conversation was the most unfortunate."
              $ ayano_dialoge += 1
              $ ayano_sleep = True
              $ rand_ayano = 5
      elif dialoge == 5:
-         "Данная функция тестируется."
+         "This function is being tested."
      elif dialoge == 6:
          $ chance_dialoge = renpy.random.randint(1, 100)
          if chance_dialoge6 >= 100:
              $ chance_dialoge6 = 100
          if chance_dialoge <= chance_dialoge6:
-             "Глянув на Аяно, вам пришла внезапная мысль: я хочу погладить ее! Протянув свою ладонь к макушке ничего неподозревающей цели, вы растрепали своими резкими движениями волосы оной. Хоть это и вышло достаточно грубо, но вы наконец-то удовлетворили свои неугасающие желания, которые еще когда-то, но проявятся."
-             "Как только вы положили свою руку на голову девицы, та обомлела, но спустя секунду она пришла в себя и продолжила заниматься своими делами, как ни в чем не бывало. Похоже, что ей начали нравиться ваши касания, но кто знает, что может произойти, если поторопить события?"
+             "Looking at Ayano, a sudden thought came to you: I want to pet her! Having stretched your palm to the top of the head of nothing unsuspecting, you mussed your hair with your sharp movements. Even though it came out rather crudely, you finally satisfied your undying desires, which once upon a time will manifest themselves."
+             "As soon as you put your hand on the girl's head, the girl became charmed, but a second later she came to her senses and went on with her business as if nothing had happened. She seems to have started to like your touching, but who knows what can happen if you hurry up?"
              $ ayano_dialoge += 1
              $ ayano_contact += 3
              $ ayano_trust += 2
-             "{color=#BC8F8F}{b}Отношения и доверие девушки улучшились!{/b}{/color}"
+             "{color=#BC8F8F}{b}The girl's relationship and trust have improved!{/b}{/color}"
          else:
              $ chance_dialoge = renpy.random.randint(1, 100)
              if chance_dialoge <= chance_dialoge6:
-                 "Глянув на Аяно, вам пришла внезапная мысль: я хочу погладить ее! Протянув свою ладонь к макушке ничего неподозревающей цели, вы растрепали своими резкими движениями волосы оной. Хоть это и вышло достаточно грубо, но вы наконец-то удовлетворили свои неугасающие желания, которые еще когда-то, но проявятся."
+                 "Looking at Ayano, a sudden thought came to you: I want to pet her! Having stretched your palm to the top of the head of nothing unsuspecting, you mussed your hair with your sharp movements. Even though it came out roughly enough, you've finally satisfied your undying desires, which once upon a time will manifest themselves."
                  show ayano g33
-                 ayanogg1 "Эй, ты что делаешь?"
-                 "Еще более резким движением девушка убрала вашу руку от своей макушки, после повернувшись в вашу сторону, недовольно прожигая взглядом."
-                 ayanogg1 "Ты чего это мою макушку трогаешь, извращенец?!"
-                 "Недовольное лицо девушки, да и ее слова дали понять, что подобный акт с вашей стороны ей неприятен, а вам и вовсе нужно держать расстояние от нее. Возможно ли, что вы слишком поторопились с телесным контактом?"
-                 ayanogg1 "Молчишь? Ну и ладно!"
+                 ayanogg1 "Hey, what are you doing?"
+                 "With an even sharper move, the girl took your hand off her top, then turned in your direction, disgruntled by the piercing look."
+                 ayanogg1 "Why are you touching my top, you pervert?!"
+                 "Dissatisfied face of the girl, and her words made it clear that such an act on your part, she does not like, and you need to keep your distance from her. Is it possible that you were too hasty with body contact?"
+                 ayanogg1 "Silent? Fine!"
                  $ ayano_perception = 0
-                 "И хоть надутые щечки вашей цели говорили, что оная недовольна, все же вы были относительно рады результату. В конце концов, похоже, что Аяно восприняла это как шутку, отчего больших проблем из-за вашей расторопности с ней в дальнейшем не возникнет."
+                 "And even though the inflated cheeks of your target said she wasn't happy, you were relatively happy with the result. In the end, Ayano seemed to take it as a joke, so there won't be any more problems with it because you're quick."
              else:
-                 "Глянув на Аяно, вам пришла внезапная мысль: я хочу погладить ее! Протянув свою ладонь к макушке, как вам казалось, ничего неподозревающей цели, вы оказались в достаточно неприятном положении: буквально за секунду Аяно повернулась к вам и начала прожигать взглядом, глядя на вас с отвращением."
+                 "Looking at Ayano, a sudden thought came to you: I want to pet her! Having stretched her palm to the top of the head, as it seemed to you, nothing unattractive, you found yourself in a rather unpleasant position: in just a second Ayano turned to you and began to burn with her gaze, looking at you with disgust".
                  show ayano g33
-                 "Похоже, что в этот раз она серьезно посчитала этот акт за домогательство, но все же ничего не сказала, да и что тут говорить, если по лицу и взгляду все понятно?"
-                 glgg "Эээ... Извини?"
-                 "Выдавленные из вас слова явно не успокоили девушку, но все же на этот раз вас отпустили с миром. Отвернувшись от вашей надоедливой персоны, Аяно продолжила заниматься своими делами."
+                 "It seems that this time she seriously considered this act of harassment, but still did not say anything, and what is there to say if the face and look all clear?"
+                 glgg "Uh... I'm sorry?"
+                 "The words squeezed out of you clearly didn't calm the girl down, but this time they let you go in peace. Turned away from your annoying face, Ayano went on with her business."
                  $ ayano_dialoge -= 3
                  $ ayano_contact -= 2
-                 "{color=#BC8F8F}{b}Отношения с девушкой ухудшились!{/b}{/color}"
+                 "{color=#BC8F8F}{b}Relationships with the girl have deteriorated!{/b}{/color}"
      elif dialoge == 7:
-         "Глянув на вашего энергичного соклубовца женского пола, вас охватило резкое желание обнять его, отчего вы подошли к ничего неподозревающей цели и, как ни в чем не бывало, выполнили свое хотение, обняв оную."
+         "Looking at your energetic female comrade, you were seized by a strong desire to hug him, why you came to nothing unsuspecting purpose and, as it never happened, fulfilled your desire by hugging him."
          $ chance_dialoge = renpy.random.randint(1, 100)
          if chance_dialoge7 >= 100:
              $ chance_dialoge7 = 100
          if chance_dialoge <= chance_dialoge7:
              hide ayano
              scene image "character/club/occult/npc/faceless/1.jpg" with dissolve
-             "Но... Ожидаемой пощечины и угроз жизни со стороны вашей цели не последовало. Аяно лишь развернулась в ваших далеко некрепких объятиях в противоположную сторону и обняла вас в ответ, что для вас попросту было приятной неожиданностью."
-             "Недолгие обнимания вскоре прервались, после которых девушка продолжила заниматься своими делами, предварительно поблагодарив вас за недавнее, на что вы одобрительно кивнули и последовали примеру Аяно."
+             "But... The expected slap and threat to life from your goal did not follow. Ayano just turned in your far-fetched hug to the opposite side and hugged you back, which was simply a pleasant surprise for you."
+             "The short hug was soon interrupted, after which the girl continued to do her business, thanking you for the recent one, to which you nodded approvingly and followed Ayano's example."
              if hour <= 16:
                  scene club_occult_ut with dissolve
              elif hour <= 20:
@@ -3203,93 +3203,93 @@ label ayano2:
              $ ayano_dialoge += 1
              $ ayano_contact += 5
              $ ayano_trust += 3
-             "{color=#BC8F8F}{b}Отношения и доверие девушки улучшились!{/b}{/color}"
+             "{color=#BC8F8F}{b}The girl's relationship and trust have improved!{/b}{/color}"
          else:
              show ayano g33
-             "Но... Как вы и ожидали, из ваших объятий вырвались и выдали вам смачную пощечину, красный след которой будет вам напоминать, что лучше все же не лезть к девушкам с телесным контактом слишком преждевременно."
-             "Назвав вас придурком, Аяно надула щечки и отвернулась от вас, предварительно предупредив, что если вы еще раз нарушите ее личное пространство, то можете заказывать себе билет на тот свет."
+             "But... As you'd expect, you got out of your hug and gave you a wet slap, the red mark of which will remind you that it's better to stay away from girls with body contact too early."
+             "Calling you a jerk, Ayano inflated her cheeks and turned her back on you, warning you that if you violate her privacy again, you can order a ticket to the other world."
              $ ayano_dialoge -= 3
              $ ayano_contact -= 2
-             "{color=#BC8F8F}{b}Отношения с девушкой ухудшились!{/b}{/color}"
+             "{color=#BC8F8F}{b}The relationship with the girl has deteriorated!{/b}{/color}"
      elif dialoge == 8:
          if hour <= 15:
-             "На свидания можно приглашать только после 16:00"
+             "You can only ask out after 4:00 p.m."
              hide ayano
              jump ayano_d
-         "Глянув на соклубовца женского пола, у вас возникло резкое желание пригласить его куда-нибудь и отдохнуть от ежедневной рутины, которая вас преследовала если не всю жизнь, то большую часть уж точно."
-         glgg "Аяно, не составишь мне компанию в моем похождении?"
+         "Looking at a woman's slut, you have a strong desire to take him out and take a break from the daily routine that has haunted you, if not all your life, most of it."
+         glgg "Ayano, can you keep me company in my adventure?"
          $ chance_dialoge = renpy.random.randint(1, 100)
          if chance_dialoge8 >= 100:
              $ chance_dialoge8 = 100
          if chance_dialoge <= chance_dialoge8:
              show ayano g21
-             ayanogg1 "Ты меня приглашаешь на свиданку что ли?"
-             glgg "Кто знает."
+             ayanogg1 "Are you asking me out on a date or something?"
+             glgg "Who knows."
              show ayano g26
-             ayanogg1 "И... Уговорил! Так уж и быть, я составлю компанию такому примерному мальчику."
-             glgg "Я и не уговаривал так-то..."
-             "Проигнорировав ваше последнее предложение, девушка начала собирать свою школьную сумку, но после, видно, устала, поэтому попросту забила на это дело, кинув ее куда-то в угол."
+             ayanogg1 "And... I did! Well, I'll keep an exemplary boy like you company."
+             glgg "I didn't talk to you like that..."
+             "Ignoring your last offer, the girl started packing her school bag, but then she got tired, so she just scored on the case by throwing it somewhere in the corner."
              show ayano g24
-             ayanogg1 "Я готова!"
-             glgg "А ты не сильно заботишься о своих вещах..."
+             ayanogg1 "I'm ready!"
+             glgg "And you don't care much about your stuff..."
              show ayano g35
-             ayanogg1 "А чего это я должна заботиться о том, что мне не пригодится?"
-             glgg "И правда... Ты же, наверное, учебники открываешь раз в год, если не в три."
+             ayanogg1 "Why should I care about something I won't be able to use?"
+             glgg "It's true... You probably open your textbooks once a year, if not at three."
              show ayano g26
-             ayanogg1 "Хе-хе, ты меня видишь прямо насквозь!"
-             glgg "Насквозь не вижу, но зато наблюдаю вещи, по которым можно судить о твоих успехах в школьных делах."
-             ayanogg1 "Каааак скажешь."
-             "Явно не сильно интересуясь вашими россказнями, девушка вышла из класса, несильно пнув своей миниатюрной ножкой дверь и буквально говоря данными действиями, что вам уже пора развлекаться, а не лясы точить." with vpunch
+             ayanogg1 "Heh heh, you can see right through me!"
+             glgg "I can't see through it, but I do see things that can tell us about your success in school."
+             ayanogg1 "Whatever you say."
+             "Obviously not very interested in your stories, the girl left the class, unable to kick the door with her tiny foot and literally say that it's time for you to have fun instead of sharpening your balls." with vpunch
              label _menu_sv_ayano:
              menu:
-                 "{color=#000000}Пригласить девушку прогуляться по парку\n{size=21}{i}5 энергии{/i}{/size}{/color}":
+                 "{color=#000000}Ask a girl to take a walk in the park \n{size=21}{i}5."
                      $ energy -= 5
                      scene image "backgrounds/location/park/2.png" with dissolve
                      hide ayano
-                     "Энергично скачущая девушка в парке радовала вас лишь своим присутствием. Правильно же люди говорят, что настроение передается воздушно-капельным, но, похоже, что ей было вполне себе весело и без вашего присутствия."
-                     "По крайней мере об этом говорила ее максимальная отчужденность к вашей персоне."
-                     "Как бы то ни было, уже через пару десятков минут Аяно совсем выдохлась и села на лавочку, все же дав простор и для вашей пятой точки. Видно, что она еще не полностью забыла про вас."
+                     "The energetic jump girl in the park only pleased you with her presence. It's true people say that the mood is airborne, but she seemed to have a lot of fun without you being there."
+                     "At least that's what her maximum alienation to your person was about."
+                     "Anyway, after a couple of tens of minutes, Ayano was completely exhausted and sat down on the bench, still giving space for your fifth point. You can see that she hasn't completely forgotten about you yet."
                      show ayano g26
-                     ayanogg1 "Это было весело!"
-                     glgg "Ты со своими тараканами в голове игралась?"
+                     ayanogg1 "That was fun!"
+                     glgg "Have you been playing with your cockroaches in your head?"
                      show ayano g22
-                     ayanogg1 "Эй! Я просто... Просто рада!"
-                     glgg "И чему ж ты так радовалась, что настолько отчужденно вела себя по отношению к своему спутнику в этой прогулке?"
+                     ayanogg1 "Hey! I just... I'm just glad!"
+                     glgg "And why were you so excited to be so alienated to your companion on this walk?"
                      show ayano g33
-                     ayanogg1 "Не будь такой букой!"
-                     glgg "Как скажешь."
+                     ayanogg1 "Don't be such a beech!"
+                     glgg "If you say so."
                      show ayano g38
-                     "Тяжело вздохнув, краем глаза вы заметили надутые щечки девушки, которую, похоже, ваши слова немного, но обидели. Спустя уже минуту Аяно будто забыла про обиду и начала увлеченно смотреть на проходящих мимо людей."
+                     "With a heavy sigh, with the edge of your eye, you noticed a girl's cheeks inflated, who seems to be a little offended by your words. After a minute, it was as if Ayano had forgotten about the insult and started to look at people passing by."
                      show ayano g35
-                     glgg "(И почему она так смахивает на собаку?)"
+                     glgg "(And why does she look like a dog?)"
                      menu:
-                         "{color=#000000}Наблюдать за прохожими, как Аяно\n{size=21}{i}0 энергии{/i}{/size}{/color}":
-                             "Последовав примеру вашей собеседницы, вы начали наблюдать за прохожими, что действительно вызывало несильный интерес."
+                         "{color=#000000}Seeing passers-by like Ayano \n{size=21}{i}0 energy{/i}{/size}{/color}":
+                             "Following the example of your interlocutor, you began to observe passers-by, which really aroused a lot of interest."
                              show ayano g36
-                             ayanogg1 "О, собачка!"
+                             ayanogg1 "Oh, doggie!"
                              show ayano g40
-                             "Указав пальцем на блохастое отродье, девушка чуть ли не каталась по лавочке от радости, но когда же ее цель для наблюдения скрылась за горизонт, она сразу же погрустнела."
-                             glgg "Ты сама как та собака..."
+                             "Pointing her finger at a flea-haired brat, the girl almost rolled around the bench for joy, but when her observation target fled beyond the horizon, she immediately became sad."
+                             glgg "You're like that dog yourself..."
                              show ayano g26
-                             ayanogg1 "Правда?"
-                             "Она, похоже, восприняла грубость, как комплимент... Ну что за девушка?"
-                             glgg "Воистину. Такая же блохастая, психованная, так еще и кусающаяся."
+                             ayanogg1 "Really?"
+                             "She seemed to take rudeness as a compliment... What kind of girl?"
+                             glgg "Truly. Just as flea-haired, crazy, and biting."
                              show ayano g33
-                             ayanogg1 "Эй! Не оскорбляй меня!"
+                             ayanogg1 "Hey! Don't insult me!"
                              hide ayano
                              scene image "backgrounds/location/park/3.png"
                              pause 2
-                             "Проведя пару часов в обсуждении собак и сходстве Аяно с ними, вы глянули на небо и заметили, что уже потемнело."
-                             glgg "Тебе не кажется, что нам уже пора домой?"
+                             "After spending a couple of hours discussing dogs and Ayano's resemblance to them, you looked up at the sky and noticed it was already dark."
+                             glgg "Don't you think it's time we went home already?"
                              show ayano g26
-                             ayanogg1 "Действительно... В любом случае спасибо за то, что поговорил со мной!"
-                             glgg "Как скажешь, псина."
+                             ayanogg1 "Really... Anyway, thank you for talking to me!"
+                             glgg "Whatever you say, doggy."
                              show ayano g33
-                             ayanogg1 "Эй! Хватит обзывать меня!"
-                             glgg "Как скажешь, пси..."
+                             ayanogg1 "Hey! Stop calling me names!"
+                             glgg "Whatever you say, do..."
                              show ayano g36
-                             ayanogg1 "Я пошла!"
-                             "Многозначительно глянув, девушка помахала вам рукой и направилась прочь из парка, оставив вас в одиночестве сидеть на лавочке.\nВ любом же случае это свидание можно назвать вполне себе удачным. И вы, и девушка отлично провели время, так к тому же и неплохо так сблизились."
+                             ayanogg1 "I'm going!"
+                             "After a long look, the girl waved at you and headed out of the park, leaving you alone to sit on the bench. \n Anyway, this date can be called quite a success. Both you and the girl had a great time, and you got along pretty well."
                      $ ayano_trust += 6
                      $ ayano_contact += 8
                      $ hour = 20
@@ -3297,55 +3297,55 @@ label ayano2:
                      if dialoge == 0 and dialoge >= 4:
                          $ dialoge = 1
                      jump park1
-                 "{color=#000000}Пригласить девушку в кафе {image=icons/icons_block.png}\n{size=21}{i}5 энергии{/i}{/size}{/color}":
+                 "{color=#000000}Invite a girl to a cafe {image=icons/icons_block.png}\n{size=21}{i}5 energies{/i}{/size}{/color}":
                      "Данная возможность разрабатывается."
                      jump _menu_sv_ayano
-                 "{color=#000000}Пригласить девушку к себе домой {image=icons/icons_block.png}\n{size=21}{i}5 энергии{/i}{/size}{/color}":
-                     "Данная возможность разрабатывается."
+                 "{color=#000000}Invite a girl to your house. {image=icons/icons_block.png}\n{size=21}{i}5 energies{/i}{/size}{/color}":
+                     "This opportunity is being developed."
                      jump _menu_sv_ayano
          else:
              show ayano g40
-             ayanogg1 "Извини, но я занята."
-             "Безучастно ответив вам, Аяно продолжила заниматься своими делами. Похоже, что вы ее недостаточно интересуете на данный момент."
+             ayanogg1 "Sorry, but I'm busy."
+             "Ayano answered you indifferently and went on with her business. She doesn't seem to be interested in you at the moment."
      elif dialoge == 9:
          if ayano_contact >= 10:
-             "Расположившись своей пятой точкой на стуле, возле Аяно, вы глянули на девушку, которая, как всегда, двигала своими ножками и вверх, и вниз, постоянно чередуя и меняя, как казалось, учредившийся и стандартизированный порядок, но все это было лишь на первый взгляд."
-             "На самом же деле ее движения были полностью хаотичными: в них не было никакого ритма, порядка или чего-то подобного. Оные представляли из себя ребяческие движения с совершенно никаким особым значением. Попросту потеря лишней энергии таким... Своеобразным способом?"
-             glgg "Ну, раз уж ты здесь, то можно поговорить и насчет клуба. Как ты вообще видишь его будущее?"
+             "With your fifth point on the chair, near Ayano, you looked at the girl who, as always, moved her legs up and down, constantly alternating and changing the seemingly established and standardized order, but all this was only at first sight."
+             "In fact, her movements were completely chaotic: there was no rhythm, order or anything like that. They were childish movements with absolutely no special meaning. Just a loss of extra energy so... In a peculiar way?"
+             glgg "Well, now that you're here, we can talk about the club. How do you even see his future?"
              show ayano g22
-             "Услышав ваш вопрос, девушка сразу же прекратила свое ребячество, глянув на вас очередным непонятливым взглядом."
-             ayanogg1 "Мы уже с тобой разговаривали насчет этого, не вижу смысла повторять мои слова по несколько раз, чтобы до тебя наконец-то дошло."
+             "On hearing your question, the girl immediately stopped being childish by looking at you with another incomprehensible look."
+             ayanogg1 "We've talked about this before, I don't see the point in repeating my words a few times so you can finally get it."
              show ayano g34
-             "Хоть слова Аяно и были достаточно грубыми, она все еще натянуто улыбалась вам. Только становится все более непонятно какой характер носит эта улыбка..."
-             glgg "Возможно мои взгляды достаточно архаичны, но все же раз это клуб, то мы должны его как-то развивать, так?"
+             "Even though Ayano's words were rude enough, she still smiled at you. Only it's becoming increasingly unclear what nature this smile has..."
+             glgg "Maybe my views are archaic enough, but since it's a club, we should develop it somehow, right?"
              show ayano g28
-             "Встав со своего уже насиженного места, девушка максимально приблизилась к вам, да так, что между ее и вашим лицом было расстояние всего в десяток сантиметров."
+             "Getting up from her already raped place, the girl came as close to you as possible, so that there was only a ten-inch distance between her and your face."
              show ayano g38
-             ayanogg1 "Ты не болен? Я первый раз вижу человека, который хочет работать, можно сказать, волонтером!"
-             "Сказав это, девушку прислонила свой лоб к вашему, но после сразу же отодвинулась."
+             ayanogg1 "You're not sick? This is the first time I've seen a man who wants to work, you might say, as a volunteer!"
+             "Having said that, the girl leaned her forehead against yours, but then immediately moved away."
              show ayano g28
-             ayanogg1 "Так значит ты не болен..."
+             ayanogg1 "So you're not sick..."
              show ayano g22
-             "Так и не дав вам сказать что-либо, Аяно приложила свой палец к подбородку, постукивая по оному, и начала думать, как вам показалось. Вся эта неловкая пауза продолжалась минут пять, после чего Аяно глянула на вас вновь своим непонятливым взглядом."
-             ayanogg1 "Ээ... А о чем шел разговор?"
-             glgg "О развитии клуба..."
+             "Without letting you say anything, Ayano put her finger to her chin, tapping on it, and started thinking as you thought. All this awkward pause lasted for five minutes, after which Ayano looked at you again with her incomprehensible look."
+             ayanogg1 "Uh... What were we talking about?"
+             glgg "About the development of the club..."
              show ayano g36
-             "Прозвучавший подавленный смешок девушки показывал, что либо она попыталась избежать ответа таким глупым способом, либо она попросту хочет показать дурочкой. Кто ж ее знает?"
-             ayanogg1 "Верно! В общем, давай потом об этом подумаем? Сейчас не лучшее время, ведь... Хм..."
-             "Аяно вновь задумалась, похоже, так и не поняв, что ее ложь раскрылась с того момента, как только она начала лгать, но все же спустя минуты две она продолжила свой монолог, пытаясь отмазаться от клубной деятельности."
+             "The girl's repressed laugh showed that either she tried to avoid answering in such a stupid way, or she just wanted to be a fool. Who knows her?"
+             ayanogg1 "That's right! Anyway, let's think about it later, shall we? It's not a good time, because... Hmm..."
+             "Ayano thought again, apparently without realizing that her lies were revealed from the moment she started lying, but still two minutes later, she continued her monologue, trying to get away from club activities."
              show ayano g24
-             ayanogg1 "Точно! У твоего лидера возникли небольшие проблемы с учебой, а скидывать свои обязанности я не могу, потому что... Потому что недостаточно доверяю тебе! Хотя... Кое-что скинуть все же я могу!"
-             "В вас была кинута девушкой банка газировки, которую вы удачно поймали благодаря везению, а может и ловкости."
-             ayanogg1 "Расслабься, дружище, если будешь таким нудным, то девушки тебя не полюбят!"
+             ayanogg1 "That's right! Your leader has had a little trouble with his studies, and I can't give up my duties because... Because I don't trust you enough! Although... I can throw something away, though!"
+             "A girl was thrown at you by a can of soda, which you caught with luck, maybe even dexterity."
+             ayanogg1 "Relax, buddy, if you're so boring, the girls won't love you!"
              $ cola += 1
-             "{color=#BC8F8F}{b}У вас появился новый предмет{/b}{/color}"
-             "Тяжело вздохнув, вы поняли, что пока рано о подобном разговаривать с Аяно. Она сама к этому не особо готова, именно поэтому вы озадаченно пожали плечами, бросив своего бывшего собеседника заниматься своими делами. Возможно стоит подойти к ней чуть позже?"
+             "{color=#BC8F8F}{b}You have a new item{/b}{/color}"
+             "When you took a hard sigh, you realized it's too early to talk to Ayano like that. She wasn't really ready for it herself, which is why you shrugged your shoulders bewildered, leaving your former interlocutor to mind your own business. Perhaps you should come to her later?"
              $ dialoge_club += 1
          elif ayano_contact <= 9:
-             "Подумав, что лучшее времяпрепровождение на данный момент - обсуждение клуба с девушкой, коей он нужен для прогулов уроков, вы глянули на Аяно, после чего сразу же выкинули подобные мысли из головы. Мало того, что выши слова для этой девушки не имеют никакого авторитета,"
-             "так еще и тратить свои нервы на обсуждение подобных вопросов с человеком, который постоянно ведет себя так же, как и ребенок... Мягко сказать, прерогатива не из лучших."
+             "Thinking that the best pastime at the moment is to discuss the club with the girl who needs it for truancy lessons, you looked at Ayano, and then immediately put such thoughts out of your mind. It's not only that the embroidery of words for this girl has no authority," he said.
+             "to spend your nerves discussing such matters with a man who's always behaving like a child... It's easy to say, the prerogative is not the best."
      elif dialoge == 10:
-         ayanogg1 "И... Хопля!" with vpunch
+         ayanogg1 "And... Hopla!" with vpunch
          hide ayano
          scene image "character/club/occult/npc/faceless/2.jpg" with dissolve
          pause 3
@@ -3353,28 +3353,28 @@ label ayano2:
              scene club_occult_ut with dissolve
          elif hour <= 20:
              scene club_occult_v with dissolve
-         "Аяно ненадолго обняла вас, что было для вас некой неожиданность. Спустя пару секунд ваше тело было свободно от объятий, но не от любопытного взгляда вашей собеседницы, что подкралась сзади и заставила вас повернуться в ее сторону."
+         "Ayano hugged you for a while, which was a bit of a surprise. After a couple of seconds, your body was free from hugs, but not from the curious look of your interlocutor, who snuck up behind you and made you turn in her direction."
          show ayano g24
-         ayanogg1 "Привет, дружище!"
-         glgg "Ты решила меня теперь обнимать каждый раз, когда тебе что-то нужно?"
+         ayanogg1 "Hey, buddy!"
+         glgg "Have you decided to hug me now every time you need something?"
          show ayano g26
-         ayanogg1 "Может быть..."
-         glgg "И... Что тебе тогда нужно?"
-         "Глянув на Аяно, вы скрестили руки у груди и начали недовольно прожигать ее взглядом. Попытка манипуляции посредством телесного контакта - не лучший способ получить то, что тебе нужно."
+         ayanogg1 "Maybe..."
+         glgg "And... What do you want, then?"
+         "When you looked at Ayano, you crossed your arms at your chest and started burning it with your eyes. Trying to manipulate through body contact is not the best way to get what you need."
          show ayano g39
-         ayanogg1 "Ну... Мне скучно... Я хочу поговорить!"
-         "Несильно топнув своей ножкой, девушка подчеркнула важность своего последнего предложения, хоть и понимая, что оное выглядит достаточно по-детски."
-         glgg "Тебе заняться нечем?"
+         ayanogg1 "Well... "I'm bored... I want to talk!"
+         "Having stomped on her feet, the girl stressed the importance of her last sentence, though she understood that it looked childish enough."
+         glgg "Don't you have anything better to do?"
          show ayano g31
-         ayanogg1 "Да! Я хочу поговорить с тобой!"
+         ayanogg1 "Yes! I want to talk to you!"
          menu:
-             "{color=#000000}Поговорить с девушкой\n{size=21}{i}2 энергии{/i}{/size}{/color}":
+             "{color=#000000}Talk to the girl.\n{size=21}{i}2 energies{/i}{/size}{/color}":
                  $ energy -= 2
                  $ club_control = 8
-             "{color=#000000}Сослаться на дела\n{size=21}{i}0 энергии{/i}{/size}{/color}":
-                 glgg "{b}*Томный вздох*{/b} Я сейчас занят. Давай потом поговорим?"
+             "{color=#000000}Refer to business\n{size=21}{i}0 energy{/i}{/size}{/color}":
+                 glgg "{b}*A blurry sigh*{/b} I'm busy right now. Can we talk about this later?"
                  show ayano g36
-                 ayanogg1 "Ладненько."
+                 ayanogg1 "Okay."
                  jump club_occult
      elif dialoge == 11:
          if hour <= 16:
@@ -3382,48 +3382,48 @@ label ayano2:
          elif hour <= 20:
              scene club_occult_v with dissolve
          show ayano g24
-         ayanogg1 "Подождиии!"
-         "Услышав знакомый голос, вы повернулись в сторону, откуда доносились слова, которые девушка специально протянула. Может думая, что так более мило, а может на то были и другие причины. В любом же случае это не так уж и важно на данный момент."
+         ayanogg1 "Wait!"
+         "When you heard a familiar voice, you turned to the side where the words that the girl had specially extended came from. Maybe thinking it was cuter, maybe there were other reasons. Anyway, it's not that important at the moment."
          show ayano g22
-         ayanogg1 "Я хочу, чтобы ты обнял меня! Мне не хватает нежности!"
-         glgg "Чегось?"
-         ayanogg1 "Хочу обниматься!"
+         ayanogg1 "I want you to give me a hug! I miss tenderness!"
+         glgg "What?"
+         ayanogg1 "I want a hug!"
          menu:
-             "{color=#000000}Обнять девушку\n{size=21}{i}2 энергии{/i}{/size}{/color}":
+             "{color=#000000}Hug a girl\n{size=21}{i}2 energies{/i}{/size}{/color}":
                  $ energy -= 2
                  hide ayano
                  scene image "character/club/occult/npc/faceless/1.jpg" with dissolve
-                 "Намереваясь обнять девушку, вы уверенными движениями прижали личико Аяно к своей груди, получая удовольствие от подобного акта и иногда поглаживая грубой ладонью ее шелковистые волосы, отчего те начинали выглядеть еще более растрепанно."
-                 "Как бы то ни было, эти телодвижения навряд ли можно назвать больше, чем дружеский жест, направленный на обычное удовлетворения человеческих потребностей."
-                 "Спустя пару минут ваши объятия разорвались. Похоже, что и девушке понравились оные, отчего вполне можно сказать: ваши отношения улучшаются в геометрической прогрессии."
+                 "In an effort to hug the girl, you confidently pressed Ayano's face against your chest, enjoying this act and sometimes stroking her silky hair with a rough palm, making them look even more broken."
+                 "Anyway, these movements can hardly be called more than a friendly gesture aimed at the usual satisfaction of human needs."
+                 "After a couple of minutes, your hug broke. The girl seems to have liked them too, which is why you can say your relationship is improving exponentially."
                  if hour <= 16:
                      scene club_occult_ut with dissolve
                  elif hour <= 20:
                      scene club_occult_v with dissolve
                  $ ayano_dialoge += 3
                  $ ayano_contact += 2
-             "{color=#000000}Сослаться на дела\n{size=21}{i}0 энергии{/i}{/size}{/color}":
-                 glgg "Извини, сейчас точно не до этого."
+             "{color=#000000}Refer to business\n{size=21}{i}0 energy{/i}{/size}{/color}":
+                 glgg "I'm sorry, this isn't exactly the time."
                  show ayano g37
-                 ayanogg1 "Ладно..."
+                 ayanogg1 "Okay..."
          jump club_occult
      elif dialoge == 19:
          if free_soda >= 1:
              show ayano g24
-             ayanogg1 "Э? Газировка? Конечно, держи!"
-             "Протянув вам холодненькую баночку сильногазированного напитка, девушка продолжила заниматься своими делами, не обращая на вас и малейшего внимания."
+             ayanogg1 "What? Soda? Of course, here you go!"
+             "After giving you a cold jar of heavy drink, the girl went on with her business without paying the slightest attention to you."
              $ free_soda = 0
              $ cola += 1
          else:
              show ayano g33
-             ayanogg1 "Не наглей! Ты сегодня ее уже получал!"
+             ayanogg1 "Don't get cocky! You've had it today!"
      elif dialoge == 22:
-         "Припоминая недавние слова Аяно о полной свободе ваших действий, вы подошли к ней и сказали ей о том, что хотите поцеловаться, на что вам ответили одобрительным кивком. "
-         "Быстро чмокнув вас по-детски в губы, девушка смущенно отвернулась от вашего лица и начала пялить в потолок Видимо, она все еще стесняется делать подобное."
+         "Recalling Ayano's recent words about your complete freedom of action, you approached her and told her that you wanted to kiss, to which you were replied with a approving nod. "
+         "Quickly peeing on your lips childishly, the girl turned her back on your face and started staring at the ceiling."
          $ ayano_dialoge += 8
          $ ayano_contact += 5
      elif dialoge == 23:
-         "Разговаривая с присутствующими в клубе соклубовцами, вы вели диалоги на разные темы, что в конце концов вас неплохо так сблизило, так вдобавок дало вам и больше авторитета!"
+         "When you talked to those present at the club, you had dialogues on different topics, which in the end brought you all together quite well and gave you much more authority!"
          $ contact_club += 2
          python:
              for number_npc in range(1, number_npc_max):
@@ -3438,14 +3438,14 @@ label ayano2:
                      eval(npc_id)["contact_npc"] = contact_npc
      elif dialoge == 24:
          if contact_club <= 9:
-             "Решив, что популярность клуба сейчас важнейший из приоритетов, вы попросили соклубовцев написать статью на оккультную тему, но, как и ожидалось, вам отказали. Видно, ваши отношения еще развиты не так хорошо, как хотелось бы."
+             "Having decided that the popularity of the club is now the most important priority, you asked your friends to write an article on the occult theme, but, as expected, you were refused. It seems that your relationship is not yet as well developed as we would like it to be."
          else:
              if gotov_st == 1:
                  if weeks >= oz_weekly:
                      if days >= oz_days or weeks > oz_weekly:
-                         "Подойдя к соклубовцам, вы получили долгожданную статью, которая будет использована во благо популяризации клуба."
+                         "By approaching your club mates, you have received a long-awaited article that will be used to promote the club."
              else:
-                 "Еще слишком рано."
+                 "It's too soon."
              if gotov_st == 0:
                  $ oz_days = days + 6
                  $ oz_weekly = weeks
@@ -3454,109 +3454,109 @@ label ayano2:
                      $ oz_weekly += 1
                      $ oz_days_name = name_days[str(oz_days)]
                      $ gotov_st = 1
-                 "Решив, что популярность клуба сейчас важнейший из приоритетов, вы попросили соклубовцев написать статью на оккультную тему, на что вам, как и ожидалось, ответили положетельным ответом. Сказав, что уже примерно через неделю все будет готово, вы решили пойти и проверить результаты их работы в [oz_days_name]"
+                 "Having decided that the popularity of the club is now the most important priority, you asked your club mates to write an article on an occult theme, to which, as expected, you received a positive response. Having said that in about a week everything would be ready, you decided to go and check the results of their work in [oz_days_name]".
      elif dialoge == 25:
          $ chance_dialoge = renpy.random.randint(1, 100)
          if flirt_chance >= 100:
              $ flirt_chance = 100
          if chance_dialoge <= flirt_chance:
              show ayano g36
-             ayanogg1 "Хе-хе… Спасибо."
-             "Удачный флирт – дело тонкое, но вы справились на отлично! За время всего диалога ваша собеседница активно участвовала в диалоге, а также выказывала вам знаки внимания, постоянно прикасаясь к вам и одаривая комплиментами."
+             ayanogg1 "Heh heh... Thank you."
+             "Successful flirting is a delicate matter, but you did great! During the whole dialogue your interlocutor actively participated in the dialogue, and also showed you signs of attention, constantly touching you and giving you compliments".
              $ ayano_contact += 6
              $ ayano_trust += 4
              $ dialoge_ayano = 7
              $ dialoge = old_dialoge
          else:
              show ayano g22
-             ayanogg1 "Эээ? Ты чего это со мной заигрываешь?"
+             ayanogg1 "Eh? Why are you flirting with me?"
              $ dialoge_ayano = 8
              $ ayano_contact -= 5
              $ ayano_trust -= 7
              $ dialoge = old_dialoge
-             "Будучи в попытках заигрывать с Аяно, вы и не замечали, что ей не нравится данное действие с вашей стороны. Как итог, вы были посланы куда подальше с подобными намеками, так вдобавок еще и получили картину недовольного личика вашей жертвы."
+             "When you were trying to flirt with Ayano, you didn't notice that she didn't like this action on your part. As a result, you were sent far away with such hints, so you also received a picture of your victim's disgruntled face."
          hide ayano
          call screen ayano_d
      elif dialoge == 26:
          if minet_ayano == 0:
              show ayano g31 with dissolve
-             ayanogg1 "Т… Ты чего несешь?!"
-             glgg "Вроде со слухом у тебя все нормально, но, похоже, придется все повторять по нескольку раз и по слогам… Я говорю, что хочу минет. Именно от тебя."
+             ayanogg1 "You... What are you talking about?!"
+             glgg "I think you're okay with your hearing, but it looks like you're gonna have to repeat it a few times and syllables... I say I want a blowjob. It's from you."
              show ayano g22
              ayanogg1 "…"
-             glgg "Вроде отчетливо сказал… Ладно, я повтор…"
+             glgg "I thought I made it clear... Okay, I'll do it again..."
              show ayano g41
-             ayanogg1 "Я поняла тебя!.."
+             ayanogg1 "I understand you..."
              show ayano g39
-             ayanogg1 "Просто… Ну… Чего так резко об этом говорить? Зачем прямолинейно подходить к подобному?.."
-             glgg "А как мне еще-то говорить, чего я хочу? Мямлить полчаса при условии, что ты однажды сказала: «проси меня все, что угодно, и я сделаю это»?"
+             ayanogg1 "It's just... Well... Why talk about it so hard? Why do you have to be blunt about something like that?"
+             glgg "How else can I say what I want? Mumble for half an hour on the condition that you once said: "ask me anything, and I'll do it"?"
              show ayano g41
-             ayanogg1 "Да! Я, знаешь ли, девушка."
+             ayanogg1 "Yes! I am, you know, a girl!"
              show ayano g22
-             ayanogg1 "Так еще и… Ну… Невинная девушка…"
-             glgg "О как. Так ты оказывается еще девственница."
+             ayanogg1 "So also... Well... An innocent girl..."
+             glgg "About how. So you're still a virgin."
              show ayano g39
-             ayanogg1 "Ты… Ты, наверное, издеваешься…"
+             ayanogg1 "You... You've got to be kidding me..."
              show ayano g42
-             ayanogg1 "В общем, я не собираюсь заниматься подобным с тобой! Обойдешься!"
-             glgg "Как по мне, сейчас у тебя идеальный шанс опробовать свои умения и даже немного потренироваться."
+             ayanogg1 "Anyway, I'm not going to do that with you! Yes, you are!"
+             glgg "I think you've got a perfect chance to try your skills and even practice a little."
              show ayano g41
-             ayanogg1 "Я сказала, что не!.."
-             glgg "Можешь считать это жестом доброй воли. Думаю, что для тебя все же это действительно хорошая возможность."
+             ayanogg1 "I said I didn't..."
+             glgg "You may consider this a gesture of good faith. I think this is a really good opportunity for you, though."
              show ayano g42
-             ayanogg1 "Из тебя ужасный… Нет. Худший казанова! Я сказала, что не хочу, но..."
+             ayanogg1 "You're terrible... No. Worst cauldron! I said I didn't want to, but..."
              show ayano g22
-             ayanogg1 "Учитывая, что ты от меня не отстанешь, и то, как много сделал для меня… Не знаю… Я попросту не знаю, как отнестись к подобной просьбе…"
-             "Постояв под несколько минут в одной позе и, видно, обдумывая ваше внезапное предложение, Аяно все же оклемалась и сказала:"
+             ayanogg1 "Given that you won't let go of me, and how much you've done for me... I don't know... I just don't know how to deal with a request like that..."
+             "After standing for a few minutes in the same posture and apparently thinking about your sudden offer, Ayano still snapped and said."
              $ chance_dialoge = renpy.random.randint(1, 100)
              if minet_chance >= 100:
                  $ minet_chance = 100
              if chance_dialoge <= minet_chance:
-                 ayanogg1 "Знаешь, я тут немного поразмыслила и решила: думаю, что ты действительно этого заслужил… Так что… Ну… Иди сейчас в подсобку клуба, там мы и встретимся…"
-                 glgg "Как-то ты быстро поменяла свое мнение насчет этого… Неужто ты сама этого захотела?"
+                 ayanogg1 "You know, I've been doing some thinking and I thought: I think you really deserve it... So... Well... Go to the back of the club now and we'll meet there..."
+                 glgg "Somehow you quickly changed your mind about this... Did you want to?"
                  show ayano g41
-                 ayanogg1 "Еще одно слово и мое мнение резко поменяется не только насчет этого, но и насчет твоей жизни."
+                 ayanogg1 "One more word and my opinion will change dramatically not only about this, but about your life."
                  hide ayano
                  $ minet_ayano = 2
-                 "Направившись в сторону кладовки, девушка покинула вас."
+                 "Heading towards the pantry, the girl left you."
              else:
-                 ayanogg1 "Знаешь, ну… Я немного поразмыслила и… В общем, мне нужно еще немного времени… Ты… Ну… Подождешь?"
-                 glgg "Придется, но в любом случае мне нужно знать, сколько по времени мне придется ожидать."
-                 ayanogg1 "Ну…"
-                 glgg "Ну?"
-                 ayanogg1 "Клуб… Как только он станет чуть популярнее, думаю, я что-нибудь да решу насчет этого предложения…"
+                 ayanogg1 "You know, well... I've been doing some thinking and... Anyway, I need some more time... You... Well... Wait?"
+                 glgg "I'll have to, but anyway, I need to know how long to expect."
+                 ayanogg1 "Well..."
+                 glgg "Well?"
+                 ayanogg1 "The club... As soon as it gets a little more popular, I think I'll decide something about that offer..."
                  hide ayano
                  $ minet_ayano = 1
-                 "Тяжело вздохнув, вы бросили Аяно в раздумьях, пока сами же были довольны результатом вашего недавнего разговора: как минимум, вы уже знаете, что нужно сделать, чтобы получить желаемое."
+                 "After taking a hard breath, you left Ayano thinking while you were satisfied with the result of your recent conversation: at least you already know what you need to do to get what you want."
          elif minet_ayano == 1:
              $ chance_dialoge = renpy.random.randint(1, 100)
              if minet_chance >= 100:
                  $ minet_chance = 100
              if chance_dialoge <= minet_chance:
-                 glgg "Ну так… Ты подумала?"
+                 glgg "So... Did you think?"
                  show ayano g31
-                 ayanogg1 "А… Ну…"
+                 ayanogg1 "Ah... Well..."
                  show ayano g22
-                 ayanogg1 "В общем-то да…"
-                 glgg "Ну и? Что решила?"
+                 ayanogg1 "Actually, yes..."
+                 glgg "Well? Decided what?"
                  show ayano g31
-                 ayanogg1 "Я сделаю это, но… Не здесь, а в подсобке. Там и встретимся."
+                 ayanogg1 "I'll do it, but... Not here, but in the back. That's where I'll meet you."
                  hide ayano
                  $ minet_ayano = 2
-                 "Направившись в сторону кладовки, девушка покинула вас."
+                 "Heading towards the pantry, the girl left you."
              else:
-                 glgg "Ну так… Ты подумала?"
+                 glgg "So... Did you think?"
                  show ayano g32
-                 ayanogg1 "А? Насчет чего?"
-                 glgg "У тебя точно с памятью проблемы…"
+                 ayanogg1 "А? About what?"
+                 glgg "You're definitely having a memory problem..."
                  show ayano g39
-                 ayanogg1 "А… Точно… Хе-хе, извини, но еще нет."
+                 ayanogg1 "Ah... Right... Heh-heh, sorry, but not yet."
          elif minet_ayano == 3:
              show ayano g22
-             ayanogg1 "Эээ… Ты опять этого хочешь?"
-             glgg "Зачем спрашивать то, что и так очевидно?"
-             ayanogg1 "Ладно, тогда встретимся в подсобке, как и всегда."
-             "Направившись в подсобку, девушка оставила вас одного."
+             ayanogg1 "Uh... Is this what you want again?"
+             glgg "Why ask what's already obvious?"
+             ayanogg1 "Okay, then I'll meet you in the back, like I always do."
+             "On her way to the back room, the girl left you alone."
              $ minet_ayano = 4
          jump club
      if ayano_ivent == 1 and ayano_contact >= 5 and hentai_patch_inicial == True:
